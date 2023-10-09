@@ -1,0 +1,127 @@
+.header {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;    
+    transition: 250ms ease-in-out all;
+    &.sticky {
+        position: fixed;
+        top: -100%;
+        opacity: 0;
+        z-index: 101;
+        &.stuck {
+            top: 0;
+            opacity: 1;
+        }
+        .header-top {
+            background-color: white;
+            box-shadow: 0px 30px 20px -40px;
+            .container {
+                padding-top: 35px;
+                padding-bottom: 35px;    
+            }            
+        }
+    }
+    &-top {
+        position: relative;
+        z-index: 2;
+        background-color: white;
+        box-shadow: 0px 30px 20px -40px;
+        @media screen and (min-width: $screen-xl-min) {
+            background-color: transparent;
+            box-shadow: initial;
+        }
+        .container {
+            padding-top: 35px;
+            padding-bottom: 35px;            
+            @media screen and (min-width: $screen-xl-min) {
+                padding-top: 70px;
+                padding-bottom: 70px;
+            }
+            .navigation {
+                ul {
+                    gap: 37px;
+                }
+            }
+        }
+    }
+    .hamburger {
+        &-inner {
+            background-color: color(secondary, base) !important;
+            &::after,
+            &::before {
+                background-color: color(secondary, base) !important;
+            }
+        } 
+    }    
+    .btn {
+        padding: 0;
+        a {
+            padding: 17px 49px;
+        }
+    }
+    .navigation {
+        ul {
+            .nav-item {
+                @include toRem(font-size, 16);
+                font-weight: bold;
+                &:not(.btn) {
+                    color: color(primary, base);
+                    &:hover,
+                    &[class*="current"] {
+                        color: color(secondary, base);
+                    }
+                    .nav-link {
+                        color: inherit;
+                    }                            
+                }
+                &[class*="current"] {
+                    pointer-events: none;
+                }
+            }
+        }        
+        &.mobile {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100vh;
+            width: 100%;
+            background-color: rgba(0,0,0,.5);
+            z-index: 1;
+            opacity: 0;
+            transition: 250ms ease-in-out all;
+            visibility: hidden;
+            ul {
+                padding: 35px;
+                padding-top: 245px;
+                gap: 35px;
+                transition: 250ms ease-in-out all;
+                left: -100%;
+                @media screen and (min-width: $screen-md-min) {
+                    padding-top: 215px;
+                }
+                height: 100%;
+                position: absolute;
+                top: 0;
+                background-color: white;
+                width: 300px;
+                .nav-item {
+                    text-align: center;
+                }
+                .btn {
+                    a {
+                        padding: 12px 49px;
+                    }
+                }
+            }
+            &.is-active {
+                opacity: 1;
+                visibility: visible;
+                ul {
+                    left: 0;
+                }
+            }
+        }
+    }
+}

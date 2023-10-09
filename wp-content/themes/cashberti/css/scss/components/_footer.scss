@@ -1,0 +1,157 @@
+.footer {
+    background-color: color(primary, base);
+    color: white;
+    @include toRem(font-size, 14);
+    p {
+        white-space: break-spaces;
+    }
+    .social-networks {
+        .title {
+            text-transform: uppercase;
+            font-weight: bold;
+            @include toRem(font-size, 14);
+            color: color(secondary, base);
+            text-align: center;
+            @media screen and (min-width: $screen-xl-min) {
+                max-width: 100px;
+                text-align: left;
+            }
+        }
+        ul {
+            justify-content: center;
+            @media screen and (min-width: $screen-xl-min) {
+                justify-content: space-between;
+            }
+            gap: 33px;
+            .nav-item {
+                .nav-link {
+                    @include toRem(font-size, 18);
+                }
+            }
+        }
+    }
+    .topbar {
+        background: transparent;
+        .container {
+            padding: 0;
+            flex-flow: column !important;
+            justify-content: center !important;
+            align-items: center !important;
+            .title {
+                font-weight: bold;
+                text-transform: uppercase;
+                width: 100%;
+                text-align: center;
+                @media screen and (min-width: $screen-xl-min) {
+                    text-align: left;
+                }
+                @include toRem(font-size, 13);
+                @media screen and (min-width: $screen-xl-min) {
+                    @include toRem(font-size, 12);
+                }
+                margin-bottom: 15px !important;
+            }
+            ul {
+                width: 100%;
+                @media screen and (min-width: $screen-xl-min) {
+                    flex-flow: column !important;
+                    align-items: flex-start !important;
+                }
+                margin-bottom: 10px;
+                li {
+                    margin-bottom: 5px;
+                }
+            }
+        }
+    }
+    a {
+        color: inherit;
+        &:hover {
+            color: white
+        }
+    }
+    &-bottom {
+        padding-top: 40px;
+        padding-bottom: 40px;        
+        @media screen and (min-width: $screen-xl-min) {
+            padding-top: 82px;
+            padding-bottom: 82px;
+        }
+        .container {
+            > div {
+                &:first-child {
+                    @media screen and (min-width: $screen-xl-min) { 
+                        padding-right: 60px;
+                        @media screen and (min-width: $screen-xxl-min) { 
+                            padding-right: 127px;
+                        }                        
+                    }
+                }
+            }
+        }
+        .copyright {
+            color: color(secondary, base);
+            a {
+                font-weight: bold;
+                color: inherit
+            }
+        }
+        .shortcuts {
+            border-bottom: 1px color(navy, base) solid;
+            padding-bottom: 31px;
+            margin-bottom: 31px;
+            .contact-item {
+                color: color(primary, medium);
+                &.address {
+                    @media screen and (min-width: $screen-lg-min) {
+                        max-width: 315px;
+                    }
+                }
+                [class*="fa"] {
+                    @include toRem(font-size, 22);
+                    position: relative;
+                    top: 1px;
+                    color: color(secondary, base);
+                }
+            }
+
+        }
+        .navigation {
+            @media screen and (min-width: $screen-xl-min) {
+                padding-right: 40px;
+                @media screen and (min-width: $screen-xxl-min) {
+                    padding-right: 75px;
+                } 
+            }
+            > ul {
+                margin: 0 -20px;
+                > .nav-item {
+                    padding: 0 20px;
+                    > .nav-link:first-child {
+                        color: color(secondary, base);
+                        font-weight: bold;
+                        margin-bottom: 24px;
+                        display: block;
+                    }
+                }                
+                @media screen and (min-width: $screen-xxl-min) {
+                    margin: 0 -40px;
+                    > .nav-item {
+                        padding: 0 40px;
+                    }
+                }
+                .nav-item {
+                    text-transform: uppercase;
+                    .nav-link {
+                        &:hover {
+                            color: color(secondary, base);
+                        }
+                    }
+                }
+                li {
+                    margin-bottom: 24px;
+                }
+            }
+        }
+    }
+}

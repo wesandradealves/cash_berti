@@ -1,0 +1,35 @@
+.btn {
+    display: inline-flex;
+    padding: 17px 49px;
+    border-radius: 999px;
+    font-weight: bolder;
+    text-align: center;
+    @include toRem(font-size, 12);
+    color: white;
+    border: 1px transparent solid;
+    &.secondary {
+        background-color: color(secondary, base);
+        &:hover {
+            background-color: transparent;
+            border-color: color(secondary, base);
+            color: color(secondary, base);
+        }
+    }
+    &.primary {
+        background-color: color(primary, base);
+        &:hover {
+            background-color: transparent;
+            border-color: color(primary, base);
+            color: color(primary, base);
+        }
+    }    
+    &.helper {
+        text-transform: uppercase;
+        background-color: color(primary, base);
+        font-weight: 300;
+    }
+    a {
+        color: inherit;
+        width: 100%;
+    }
+}

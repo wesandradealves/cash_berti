@@ -1,0 +1,22 @@
+/*! 
+    Theme Name: Veton
+    Theme URI: 
+    Author: Agência 904
+    Author URI: https://www.904.ag
+    Version: 1.0
+    License: Agência 904
+    License URI: https://www.904.ag
+    Text Domain: veton
+*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+@import 'breakpoints';
+@import 'colors';
+@import 'util';
+@import 'reset';
+@import 'objects';
+@import 'general';
+@import './components/whatsapp';
+@import './components/topbar';
+@import './components/header';
+@import './components/footer';
+@import './components/newsletter';

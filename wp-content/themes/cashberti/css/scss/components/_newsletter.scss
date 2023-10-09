@@ -1,0 +1,109 @@
+.widget_newsletter {
+    @media screen and (min-width: $screen-xl-min) {
+        margin-bottom: -250px;
+        & ~ .footer {
+            .footer-bottom {
+                .container {
+                    padding-top: 300px;
+                }
+            }
+        }
+    }
+    .newsletter {
+        position: relative;
+        .container {
+            background: linear-gradient(0.25turn, color(primary, base), color(secondary, base));
+            @media screen and (min-width: $screen-xl-min) {
+                padding-left: 120px;
+                padding-right: 120px;
+                margin-top: 100px;
+            }
+            @media screen and (max-width: $screen-xl-min) {
+                padding: 60px;
+                max-width: 100%;
+            }
+            .wpcf7-response-output {
+                color: white;
+                font-weight: bold;
+            }            
+            > * {
+                position: relative;
+                z-index: 3;
+                .inner {
+                    display: flex;
+                    flex-flow: column;
+                    gap: 10px;
+                    .wpcf7-not-valid-tip {
+                        color: coral;
+                    }
+                }
+                .title {
+                    color: white;
+                    font-weight: bold;
+                    @include toRem(font-size, 28);
+                }
+                .btn {
+                    border-radius: 10px;
+                }
+                .form-group {
+                    display: block;
+                    width: 100%;
+                    position: relative;
+                    &:last-child {
+                        width: auto;
+                        margin-right: auto;
+                    }
+                    .wpcf7-spinner {
+                        position: absolute;
+                        top: calc(50% - 12px);
+                        left: calc(50% - 12px);
+                        margin: 0;
+                    }
+                    input {
+                        &:not([type="submit"]) {
+                            background-color: transparent;
+                            color: white;
+                            border: 1px white solid;
+                            border-radius: 10px;
+                            @include toRem(font-size, 12);
+                            padding: 18px 25px;
+                            width: 100%;
+                            outline: initial;
+                            @media screen and (min-width: $screen-xl-min) {
+                                max-width: 374px;
+                            }
+                            &::placeholder {
+                                color: white;
+                                opacity: 1; 
+                            }
+                            &::-ms-input-placeholder { 
+                                color: white;
+                            }
+                        }
+                    }                    
+                }
+                &:first-child {
+                    img {
+                        position: relative;
+                        @media screen and (min-width: $screen-xl-min) {
+                            top: -100px;
+                            margin-bottom: -105px;
+                        }
+                    }
+                }
+            }
+        }
+        &::after {
+            @media screen and (min-width: $screen-xl-min) {
+                content: url('img/waves.png');
+            }
+            position: absolute;
+            top: calc(50% - 720px);
+            @media screen and (min-width: $screen-xxl-min) {
+                top: calc(50% - 675px);  
+            }
+            left: calc(50% - 1000px);
+            z-index: 2;
+        }
+    }
+}

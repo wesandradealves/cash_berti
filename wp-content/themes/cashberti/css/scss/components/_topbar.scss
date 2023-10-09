@@ -1,0 +1,24 @@
+.topbar {
+    background: linear-gradient(0.25turn, color(primary, base), color(secondary, base));
+    color: white;
+    text-transform: uppercase;
+    position: relative;
+    z-index: 2;
+    @include toRem(font-size, 14);
+    @media screen and (min-width: $screen-md-min) {
+        @include toRem(font-size, 18);
+    }
+    .container {
+        padding-top: 17px;
+        padding-bottom: 17px;
+        gap: 0 75px;
+        ul {
+            gap: 0 17px;
+            li {
+                a {
+                    line-height: 0;
+                }
+            }
+        }
+    }
+}
