@@ -1,11 +1,16 @@
 .widget_newsletter {
     @media screen and (min-width: $screen-xl-min) {
-        margin-bottom: -250px;
-        & ~ .footer {
-            .footer-bottom {
-                .container {
-                    padding-top: 300px;
-                }
+        margin-top: -460px;
+    }  
+    & ~ .footer {
+        &-bottom {
+            > .container {
+                @media screen and (min-width: $screen-xl-min) {
+                    padding-top: 20px;
+                    @media screen and (min-width: $screen-xxl-min) {
+                        padding-top: 80px;
+                    }                
+                }                    
             }
         }
     }
@@ -40,6 +45,7 @@
                 .title {
                     color: white;
                     font-weight: bold;
+                    max-width: 415px;
                     @include toRem(font-size, 28);
                 }
                 .btn {
@@ -47,17 +53,10 @@
                 }
                 .form-group {
                     display: block;
-                    width: 100%;
-                    position: relative;
+                    width: 100%; 
                     &:last-child {
                         width: auto;
                         margin-right: auto;
-                    }
-                    .wpcf7-spinner {
-                        position: absolute;
-                        top: calc(50% - 12px);
-                        left: calc(50% - 12px);
-                        margin: 0;
                     }
                     input {
                         &:not([type="submit"]) {

@@ -36,3 +36,12 @@ html, body {
 #wrap {
     min-height: 100vh;
 }
+
+.main {  
+    position: relative;
+    z-index: 3;
+    #primary {
+        position: relative;
+        z-index: 10;
+    }
+}

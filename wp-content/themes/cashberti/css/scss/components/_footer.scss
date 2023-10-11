@@ -20,7 +20,7 @@
         ul {
             justify-content: center;
             @media screen and (min-width: $screen-xl-min) {
-                justify-content: space-between;
+                justify-content: flex-start;
             }
             gap: 33px;
             .nav-item {
@@ -71,6 +71,8 @@
         }
     }
     &-bottom {
+        position: relative;
+        z-index: 3;
         padding-top: 40px;
         padding-bottom: 40px;        
         @media screen and (min-width: $screen-xl-min) {

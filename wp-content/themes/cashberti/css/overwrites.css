@@ -14,3 +14,12 @@
 [class*="aiosrs"] {
     display: none !important;
 }
+.img-fluid {
+    max-width: 100%;
+}
+.wpcf7-spinner {
+    position: absolute;
+    top: calc(50% - 12px);
+    left: calc(50% - 12px);
+    margin: 0;
+}

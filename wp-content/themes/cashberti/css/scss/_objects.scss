@@ -1,12 +1,14 @@
 .btn {
     display: inline-flex;
     padding: 17px 49px;
-    border-radius: 999px;
+    border-radius: 10px;
     font-weight: bolder;
     text-align: center;
     @include toRem(font-size, 12);
     color: white;
     border: 1px transparent solid;
+    font-weight: 300;
+    text-transform: uppercase;
     &.secondary {
         background-color: color(secondary, base);
         &:hover {
@@ -16,20 +18,27 @@
         }
     }
     &.primary {
-        background-color: color(primary, base);
+        background-color: color(primary, dark);
         &:hover {
             background-color: transparent;
-            border-color: color(primary, base);
-            color: color(primary, base);
+            border-color: color(primary, dark);
+            color: color(primary, dark);
         }
     }    
     &.helper {
         text-transform: uppercase;
         background-color: color(primary, base);
-        font-weight: 300;
+        &:hover {
+            background-color: transparent;
+            border-color: color(primary, base);
+            color: color(primary, base);
+        }        
     }
     a {
         color: inherit;
         width: 100%;
     }
+}
+.form-group {
+    position: relative;
 }

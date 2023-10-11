@@ -1,4 +1,4 @@
-<?php /* Template Name: Frontpage */ ?>
+<?php /* Template Name: Blog */ ?>
 <?php get_header(); ?>
 <?php 
     if ( have_posts() ) :
