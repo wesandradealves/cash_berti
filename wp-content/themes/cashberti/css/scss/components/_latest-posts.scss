@@ -1,0 +1,56 @@
+.latest-posts {
+    margin-bottom: 80px;
+    &:not(.variation) {
+        .container {
+            background-color: color(secondary, base);
+            height: 520px;
+            margin-bottom: -450px;
+            > .title {
+                color: white;
+            }
+        }
+    }
+    &.variation {
+        background-color: color(gray, light);
+        @media screen and (min-width: $screen-lg-min) {
+            height: 448px;
+            margin-bottom: 230px;
+        }
+        .container {
+            > .title {
+                font-weight: 300;
+                justify-content: flex-end;
+                > span {
+                    text-align: right;
+                }
+            }
+        }
+    }
+    .container {
+        > .title {
+            padding: 48px 33px 0;
+            max-width: initial;
+            > span {
+                max-width: 400px;
+            }
+        }
+    }
+    .posts {
+        .slick-track {
+            padding: 50px 0;
+        }
+        .post-card {
+            transition: 500ms ease all;
+            &[class*="current"] {
+                @media screen and (min-width: $screen-xl-min) {
+                    transform: scale(1.1);
+                    position: relative;
+                    z-index: 10;
+                    .inner {
+                        box-shadow: 0px 0px 20px -10px black;
+                    }
+                }
+            } 
+        }
+    }
+}

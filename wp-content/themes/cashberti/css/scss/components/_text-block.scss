@@ -1,0 +1,8 @@
+.text-block {
+    margin-bottom: 80px;
+    .title {
+        @media screen and (min-width: $screen-md-min) {
+            max-width: 350px;
+        }
+    }
+}

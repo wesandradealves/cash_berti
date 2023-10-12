@@ -56,7 +56,7 @@ function remove_menus()
 
     remove_menu_page("jetpack"); //Jetpack*
 
-    remove_menu_page("edit.php"); //Posts;
+    // remove_menu_page("edit.php"); //Posts;
 
     // remove_menu_page( 'upload.php' );                 //Media
 
@@ -282,115 +282,77 @@ function bb_change_posts_per_page($query)
         return;
     }
 
-    $query->set( 'posts_per_page', 8 );
+    // $query->set( 'posts_per_page', 8 );
 
-    if( is_search() || is_archive() ) {
-        $taxonomies = array();
+    // if( is_search() || is_archive() ) {
+    //     $taxonomies = array();
 
-        if(isset($_GET['orderby'])) {
-            $query->set( 'orderby', $_GET['orderby']);
-        }
+    //     if(isset($_GET['orderby'])) {
+    //         $query->set( 'orderby', $_GET['orderby']);
+    //     }
 
-        if(isset($_GET['categoria']) && $_GET['categoria'] !== '') {
-            $term = get_term($_GET['categoria']);
+    //     if(isset($_GET['categoria']) && $_GET['categoria'] !== '') {
+    //         $term = get_term($_GET['categoria']);
 
-            array_push($taxonomies,  array(
-                'taxonomy' => $term->taxonomy,
-                'field' => 'term_id',
-                'terms' => $term->term_id,
-                'operator' => 'IN'
-            ));
-        }
+    //         array_push($taxonomies,  array(
+    //             'taxonomy' => $term->taxonomy,
+    //             'field' => 'term_id',
+    //             'terms' => $term->term_id,
+    //             'operator' => 'IN'
+    //         ));
+    //     }
 
-        if(isset($_GET['tag']) && $_GET['tag'] !== '') {
-            $term = get_term($_GET['tag']);
+    //     if(isset($_GET['tag']) && $_GET['tag'] !== '') {
+    //         $term = get_term($_GET['tag']);
 
-            array_push($taxonomies,  array(
-                'taxonomy' => $term->taxonomy,
-                'field' => 'term_id',
-                'terms' => $term->term_id,
-                'operator' => 'IN'
-            ));
-        }
+    //         array_push($taxonomies,  array(
+    //             'taxonomy' => $term->taxonomy,
+    //             'field' => 'term_id',
+    //             'terms' => $term->term_id,
+    //             'operator' => 'IN'
+    //         ));
+    //     }
 
-        if($taxonomies) {
-            $args = array(
-                'relation' => 'OR',
-                $taxonomies,
-            );        
+    //     if($taxonomies) {
+    //         $args = array(
+    //             'relation' => 'OR',
+    //             $taxonomies,
+    //         );        
     
-            $query->set( 'tax_query', $args);    
-        }
-    }
+    //         $query->set( 'tax_query', $args);    
+    //     }
+    // }
 }
 
 function my_search_form($form)
 {
     global $wp_query;
 
-    $tax = get_taxonomy(get_queried_object()->taxonomy);
-
-    if($tax) {
-        $tax = reset($tax->object_type);
-    }
- 
-    $post_type = is_search() ? $wp_query->query_vars['post_type'] : ($tax ? $tax : get_queried_object()->name);
-
     $categories = get_terms( array(
         'hide_empty' => false,
-        'post_type' => $post_type,
-        'taxonomy'  => 'categoria-de-'.$post_type
+        'post_type' => "post",
+        'taxonomy'  => "category"
     ) );
 
-    $tags = get_terms( array(
-        'hide_empty' => false,
-        'post_type' => $post_type,
-        'taxonomy'  => 'tags'
-    ) );    
-
     $form = '<div class="filter">
-        <form id="search" action="' . home_url("/") . '" method="GET" class="d-flex flex-wrap align-items-center">';
-
-        if($categories) {
-            $form .= '<select value="'.(isset($_GET['categoria']) ? $_GET['categoria'] : '').'" name="categoria">
-                <option value="">Filtar por categoria</option>';
-            foreach ($categories as $item) {
-                $form .= '<option '.(isset($_GET['categoria']) && $_GET['categoria'] == $item->term_id ? 'selected="true"' : '').' value="'.$item->term_id.'">'.$item->name.'</option>';
-            }
-            $form .= '</select>';
-        }
+        <form id="search" action="' . get_permalink() . '" method="GET" class="d-flex flex-wrap align-items-stretch">';
 
         $form .= '
-            <select value="'.$wp_query->query_vars['order'].'" name="order" class="ms-sm-4 mt-4 mt-sm-0">
-                <option '.(isset($_GET['order']) && $_GET['order'] == 'ASC' || $wp_query->query_vars['order'] == 'ASC'  ? 'selected="true"' : '').' value="ASC">Mais antigo</option>
-                <option '.(isset($_GET['order']) && $_GET['order'] == 'DESC' || $wp_query->query_vars['order'] == 'DESC' ? 'selected="true"' : '').' value="DESC">Mais novo</option>
-            </select>
-        ';
-
-        if(in_array($post_type, get_taxonomy('tags')->object_type)) {
-            $form .= '<ul class="d-flex align-items-center col-12 col-sm-auto mt-4 mt-sm-0 ms-sm-4">';
-                foreach ($tags as $tag) {
-                    $form .= '
-                        <li class="me-4">
-                            <div class="checkbox">
-                                <!-- 
-                                    <input '.(isset($_GET['tag']) && $_GET['tag'] == $tag->term_id ? 'checked' : '').' type="radio" name="tag" value="'.$tag->term_id.'" id="'.$tag->name.'" />
-                                -->
-                                <label for="tag"><a href="'.get_term_link($tag).'">'.$tag->name.'</a></label>
-                            </div>
-                        </li>
-                    ';
-                }
-            $form .= '</ul>';
-        }
-
-        $form .= '
-            <div class="searchbar ms-auto mt-4 mt-lg-0 d-flex flex-wrap align-items-stretch justify-content-between">
-                <button class="submit d-flex align-items-center justify-content-center"><i class="icon search"></i></button>
-                <input type="hidden" name="post_type" value="'.$post_type.'" /> 
-                <input class="d-block input flex-fill" placeholder="Pesquisar" id="s" name="s" type="text" value="' . get_search_query() . '" />
+            <div class="searchbar flex-fill d-flex align-items-center me-4">
+                <input type="hidden" name="p" value="post" /> 
+                <input class="d-block flex-fill" placeholder="Pesquisar" id="s" name="keyword" type="text" value="' . get_search_query() . '" />
+                <button class="d-flex align-items-center"><i class="fa-solid fa-magnifying-glass"></i></button>
             </div>
         ';
+
+        if($categories) {
+            $form .= '<select value="'.(isset($_GET['cat']) ? $_GET['cat'] : '').'" name="cat">
+                <option value="">Filtar por categoria</option>';
+            foreach ($categories as $item) {
+                $form .= '<option '.(isset($_GET['cat']) && $_GET['cat'] == $item->term_id ? 'selected="true"' : '').' value="'.$item->term_id.'">'.$item->name.'</option>';
+            }
+            $form .= '</select>';
+        }        
 
     $form .= '</form>
     </div>';
@@ -483,6 +445,132 @@ function ws_get_images_urls($object, $field_name, $request)
 function wpb_load_widget()
 {
     register_widget('wpb_widget');
+}
+
+function render_faq(
+    $block,
+    $content = "",
+    $is_preview = false,
+    $post_id = 0
+) {
+
+    $posts = new WP_Query( array(
+        'order' => 'DESC',
+        'post_type'      => "faq",
+        'posts_per_page' => -1,
+    ) );
+
+    get_template_part("/blocks/faq", "faq", [
+        "block" => $block,
+        "is_preview" => $is_preview,
+        "post_id" => $post_id,
+        "fields" => [
+            "q" => $posts,
+            "title" => get_field("title")
+        ],
+    ]);
+}
+
+function rende_latest_posts(
+    $block,
+    $content = "",
+    $is_preview = false,
+    $post_id = 0
+) {
+
+    $posts = new WP_Query( array(
+        'order' => 'DESC',
+        'post_type'      => "post",
+        'posts_per_page' => -1,
+    ) );
+
+    get_template_part("/blocks/latest-posts", "latest-posts", [
+        "block" => $block,
+        "is_preview" => $is_preview,
+        "post_id" => $post_id,
+        "fields" => [
+            "q" => $posts,
+            "layout" => get_field("layout"),
+            "title" => get_field("title")
+        ],
+    ]);
+}
+
+function render_item_carousel(
+    $block,
+    $content = "",
+    $is_preview = false,
+    $post_id = 0
+) {
+    get_template_part("/blocks/item-carousel", "item-carousel", [
+        "block" => $block,
+        "is_preview" => $is_preview,
+        "post_id" => $post_id,
+        "fields" => [
+            "title" => get_field("title"),
+            "text" => get_field("text"),
+            "items" => get_field("items")
+        ],
+    ]);
+}
+
+function render_text_block(
+    $block,
+    $content = "",
+    $is_preview = false,
+    $post_id = 0
+) {
+    get_template_part("/blocks/text-block", "text-block", [
+        "block" => $block,
+        "is_preview" => $is_preview,
+        "post_id" => $post_id,
+        "fields" => [
+            "title" => get_field("title"),
+            "text" => get_field("text")
+        ],
+    ]);
+}
+
+function render_block_newsletter(
+    $block,
+    $content = "",
+    $is_preview = false,
+    $post_id = 0
+) {
+    get_template_part("/blocks/block-newsletter", "block-newsletter", [
+        "block" => $block,
+        "is_preview" => $is_preview,
+        "post_id" => $post_id,
+        "fields" => [
+            "title" => get_field("title"),
+            "text" => get_field("text"),
+            "cta" => get_field("cta"),
+            "layout" => get_field("layout"),
+            "imagem" => get_field("imagem"),
+            "form_id" => get_field("form_id")
+        ],
+    ]);
+}
+
+function render_text_image_default(
+    $block,
+    $content = "",
+    $is_preview = false,
+    $post_id = 0
+) {
+    get_template_part("/blocks/text-image-default", "text-image-default", [
+        "block" => $block,
+        "is_preview" => $is_preview,
+        "post_id" => $post_id,
+        "fields" => [
+            "title" => get_field("title"),
+            "text" => get_field("text"),
+            "cta" => get_field("cta"),
+            "imagem" => get_field("imagem"),
+            "layout" => get_field("layout"),
+            "reverse" => get_field("reverse")
+        ],
+    ]);
 }
 
 add_action('widgets_init', 'wpb_load_widget');

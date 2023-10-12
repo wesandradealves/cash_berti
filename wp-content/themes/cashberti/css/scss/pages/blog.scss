@@ -1,0 +1,10 @@
+.page-template-blog {
+    .todas-as-noticias {
+        margin-bottom: 80px;
+        .container {
+            @media screen and (min-width: $screen-lg-min) {
+                max-width: 990px;
+            }
+        }
+    }
+}

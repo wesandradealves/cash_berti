@@ -1,0 +1,34 @@
+.faq {
+    background-color: color(gray, light);
+    @media screen and (min-width: $screen-lg-min) {
+        margin-bottom: -460px;
+    }
+    .container {
+        padding-top: 80px;
+        padding-bottom: 80px;    
+        > .title {
+            margin-bottom: 126px;
+        }  
+        @media screen and (min-width: $screen-xl-min) {
+            padding-bottom: calc(173px + 385px);
+            padding-top: 173px;
+        }      
+    }
+    &-list {
+        .faq-item {
+            border-bottom: 1px rgba(0,0,0,.3) solid;
+            padding-bottom: 94px;
+            &:not(:last-child) {
+                margin-bottom: 94px;
+            }
+            .title {
+                @include toRem(font-size, 26);
+                cursor: pointer;
+            }
+            .text {
+                @include toRem(font-size, 18);
+                padding-top: 42px;
+            }
+        }
+    }
+}

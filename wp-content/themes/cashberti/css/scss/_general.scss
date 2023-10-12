@@ -45,3 +45,11 @@ html, body {
         z-index: 10;
     }
 }
+
+[data-block-id] {
+    .container {
+        @media screen and (min-width: $screen-lg-min) {
+            max-width: 990px;
+        }
+    }
+}

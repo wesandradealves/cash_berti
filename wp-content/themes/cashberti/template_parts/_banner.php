@@ -1,8 +1,8 @@
-<section class="banner <?php echo strtolower(get_field('banner_layout')); ?>">
-    <div class="container d-flex flex-wrap <?php if(strtolower(get_field('banner_layout')) == 'boxed') : ?> align-items-start <?php else : ?> align-items-center <?php endif; ?>">
-        <?php if(get_field('banner_imagem')) : ?>
-        <div class="d-none d-lg-block flex-fill">
-            <img loading="lazy" class="img-fluid" src="<?php echo get_field('banner_imagem'); ?>" alt="<?php echo get_field('banner_titulo'); ?>">
+<section class="banner <?php echo is_single() ? "boxed" : strtolower(get_field('banner_layout')); ?>">
+    <div class="container d-flex flex-wrap <?php if(strtolower(get_field('banner_layout')) == 'boxed' || is_single()) : ?> align-items-start <?php else : ?> align-items-center <?php endif; ?>">
+        <?php if(get_field('banner_imagem') || get_the_post_thumbnail_url()) : ?>
+        <div class="d-none d-lg-flex <?php if(strtolower(get_field('banner_layout')) !== 'boxed') : ?> align-items-center justify-content-center <?php endif; ?> flex-fill">
+            <img loading="lazy" class="img-fluid" src="<?php echo is_single() ? get_the_post_thumbnail_url() : get_field('banner_imagem'); ?>" alt="<?php echo is_single() ? get_the_title() : get_field('banner_titulo'); ?>">
         </div>
         <?php endif; ?>
         <div class="col-12 col-lg-6">

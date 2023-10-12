@@ -6,6 +6,7 @@
             the_post(); 
             ?>
             <?php get_template_part('template_parts/_banner', null, array()); ?>
+            <?php the_content() ?>          
             <?php 
         endwhile; 
     endif;

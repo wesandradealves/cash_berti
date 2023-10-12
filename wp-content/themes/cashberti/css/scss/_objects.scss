@@ -39,6 +39,69 @@
         width: 100%;
     }
 }
+
 .form-group {
     position: relative;
+}
+
+section {
+    position: relative;
+    .container {
+        > {
+            .title {
+                @include toRem(font-size, 36);
+                max-width: 418px;
+            } 
+            .text {
+                @include toRem(font-size, 18);
+            }            
+        }
+    }
+}
+
+.wp-block-embed {
+    &.is-type-video {
+        margin-bottom: 80px;
+        .wp-block-embed__wrapper {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            iframe {
+                width: 100%;
+                max-width: 790px;
+                height: 440px;
+            }
+        }
+    }
+}
+
+.grid {
+    margin: 0 -12px -12px;
+    gap: 30px;
+    @media screen and (min-width: $screen-md-min) {
+        gap: 30px 0;
+    }
+}
+
+.pagination {
+    margin: 80px auto 0;
+    gap: 10px;
+    .page-numbers {
+        min-width: 36px;
+        height: 36px;
+        border: 1px lighten($color: color(primary, base), $amount: 50%) solid;
+        border-radius: 4px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        @include toRem(font-size, 12);
+        font-weight: 300;
+        color: lighten($color: color(primary, base), $amount: 50%);
+        &.current {
+            color: white;
+            background-color: color(primary, base);
+        }
+    }
 }

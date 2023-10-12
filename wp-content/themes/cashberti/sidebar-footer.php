@@ -1,9 +1,9 @@
 <?php if ( is_active_sidebar( 'footer' ) ) : ?>
     <?php dynamic_sidebar( 'footer' ); ?>
     <style>
-        @media screen and (min-width: 992px) {
+        @media screen and (min-width: 1200px) {
             main {
-                margin-bottom: 460px;
+                margin-bottom: 400px;
             }
         }          
     </style>

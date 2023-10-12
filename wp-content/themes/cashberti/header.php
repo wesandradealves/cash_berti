@@ -15,7 +15,7 @@
     ?>
 </head>
 
-<body <?php body_class('d-none page--'.$post->post_name); ?>>
+<body <?php body_class('page--'.$post->post_name); ?>>
     <div id="wrap" class="d-flex w-100 flex-column justify-content-start overflow-hidden">
         <a class="skip-link screen-reader-text" href="#content">
             <?php

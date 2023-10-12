@@ -2,6 +2,7 @@ $palettes: (
     primary: (base: #283752, dark: #163774, medium: #6A818B),
     secondary: (base: #00B4CC, light: #EFFDFF),
     navy: (base: #125B65),
+    gray: (light: #F4F4F4)
 );
 
 @function color($color,$tone){

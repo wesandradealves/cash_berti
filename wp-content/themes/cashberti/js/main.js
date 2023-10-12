@@ -2,6 +2,15 @@
     $(window).on("load", function () {
         let $this = $(this);
 
+        // if(window.location.search) {
+        //     let parameters = window.location.search.split("?")[1].split("&");
+        //     if(parameters.find((p) => p.indexOf("'p=post'"))) {
+        //         setTimeout(function () {
+        //             document.getElementById('blog').scrollIntoView({behavior: "smooth", block: "center"});
+        //         }, 500);                
+        //     }
+        // }
+
         Inputmask({regex: "[A-Z a-z]*"}).mask($('[name*="nome"]'));
 
         function MTel(v) {
@@ -24,6 +33,70 @@
                 Mascara(this, MTel);
             });
         });
+
+        $( ".faq-item" ).on( "click", ".title", function(e) {
+            $(this).toggleClass('active'),
+            $(this).find('.fa-solid').toggleClass('fa-plus fa-minus'),
+            $(this).next().toggleClass('d-block d-none');
+        });	
+        
+        $('.item-carousel .items').slick({
+            dots: false,
+            infinite: true,
+            autoplay: true,
+            autoplaySpeed: 5000,            
+            speed: 300,
+            mobileFirst: true,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            initialSlide: 0,
+            adaptiveHeight: false,
+            centerMode: true,
+            responsive: [
+                {
+                    breakpoint: 1200,
+                    settings: {
+                        slidesToShow: 4,
+                    }
+                },                
+                {
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 3,
+                    }
+                }
+            ]                 
+        });
+
+        $('.latest-posts .posts').slick({
+            dots: false,
+            infinite: true,
+            // autoplay: true,
+            autoplaySpeed: 5000,            
+            speed: 300,
+            mobileFirst: true,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            initialSlide: 0,
+            adaptiveHeight: false,
+            centerMode: true,
+            responsive: [
+                {
+                    breakpoint: 1200,
+                    settings: {
+                        slidesToShow: 4,
+                    }
+                },                
+                {
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 3,
+                    }
+                }
+            ]                 
+        });        
+        
+        // -
 
         $(this).scrollTop(0),
         $('body').removeClass('d-none');

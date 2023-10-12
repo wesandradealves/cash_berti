@@ -5,11 +5,7 @@
             the_post(); 
             ?>
             <?php get_template_part('template_parts/_banner', null, array()); ?>
-            <section id="primary" class="content">
-                <div class="container">
-                    <?php the_content() ?>
-                </div>
-            </section>            
+            <?php the_content() ?>          
             <?php 
         endwhile; 
     endif;

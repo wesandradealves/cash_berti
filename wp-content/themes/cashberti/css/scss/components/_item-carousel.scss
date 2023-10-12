@@ -1,0 +1,13 @@
+.item-carousel {
+    margin-bottom: 80px;
+    .container {
+        > .title {
+            color: color(secondary, base);
+        }
+        > .text {
+            @media screen and (min-width: $screen-lg-min) {
+                max-width: 383px;
+            }
+        }
+    }
+}
