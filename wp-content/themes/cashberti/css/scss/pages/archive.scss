@@ -1,0 +1,46 @@
+.archive {
+    .text-carousel {
+        .container {
+            & > div:last-of-type {
+                .content {
+                    padding: 0;
+                }                        
+            }
+        }
+        &:nth-child(even) {
+            .container {
+                flex-flow: row-reverse wrap;
+                > div {
+                    &:last-of-type {
+                        @media screen and (min-width: $screen-lg-min) {
+                            margin-left: initial;
+                            margin-right: -186px;
+                        }
+                        padding: 50px;
+                    }
+                    &:first-of-type {
+                        @media screen and (min-width: $screen-lg-min) {
+                            margin-left: -100px;
+                            left: -16px;
+                        }
+                    }                    
+                }                
+            }
+        }
+        &:nth-child(odd) {
+            .container {
+                > div {
+                    &:last-of-type {
+                        @media screen and (min-width: $screen-lg-min) {
+                            .content {
+                                * {
+                                    text-align: right;
+                                }
+                            }
+                        }
+                    }               
+                }                
+            }
+        }        
+    }
+}

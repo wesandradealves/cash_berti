@@ -1,0 +1,76 @@
+.tabs {
+    margin-bottom: 100px;
+    margin-top: 160px;
+    background-color: color(gray, light);
+    .container {
+        padding-top: 85px;
+        padding-bottom: 85px;
+        position: relative;
+        @media screen and (max-width: $screen-md-min) {
+            max-width: 100%;
+        }
+    }
+    &-content {
+        .tab {
+            .slick-track {
+                display: flex;
+                gap: 30px;
+                .title {
+                    font-weight: 500;
+                    @include toRem(font-size, 25);
+                    min-height: 52px;
+
+                }
+                .text {
+                    @include toRem(font-size, 18);
+                }
+                img {
+                    height: 60px;
+                }
+            }
+        }
+    }
+    &-nav {
+        // @media screen and (min-width: $screen-lg-min) {
+        //     padding-right: 100px;
+        //     @media screen and (min-width: $screen-xl-min) {
+        //         margin-left: -70px;
+        //         @media screen and (min-width: $screen-xxl-min) {
+        //             margin-left: -164px;
+        //         }                        
+        //     }                      
+        // }
+        > ul {
+            background-color: color(gray, medium);
+            > li {
+                flex: 0 0 auto;
+                width: 100%;
+            }
+        }
+        margin: -82px -25px 80px;
+        @media screen and (min-width: $screen-md-min) {
+            width: 300px;
+            margin: 0;
+            position: absolute;
+            top: -60px;
+            left: 0;
+            height: calc(100% + 85px);
+        }
+        [data-tab] {
+            background-color: color(gray, medium);
+            padding: 56px;
+            font-weight: 300;
+            text-align: center;
+            @include toRem(font-size, 22);
+            color: color(primary, base);
+            > span {
+                max-width: 130px;
+            }
+            &.active {
+                background-color: color(secondary, base);
+                color: white;
+                font-weight: bold;
+            }
+        }
+    }
+}

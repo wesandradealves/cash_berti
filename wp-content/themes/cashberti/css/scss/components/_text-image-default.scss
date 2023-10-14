@@ -1,5 +1,10 @@
 .text-image-default {
     margin-bottom: 80px;
+    .subtitle {
+        color: color(secondary, base);
+        @include toRem(font-size, 12);
+        text-transform: uppercase;
+    }       
     .text {
         p {
             line-height: 2

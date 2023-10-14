@@ -1,10 +1,6 @@
     </main>
     <footer class="footer mt-auto">
-        <?php 
-            if(get_post_type() == 'page' && get_the_id() !== 96) {
-                get_sidebar("footer"); 
-            }
-        ?>
+        <?php get_sidebar("footer"); ?>
         <div class="footer-bottom">
             <div class="container d-flex align-items-stretch flex-column flex-xl-row flex-wrap">
                 <div class="col-12 text-center text-xl-start col-xl-4">

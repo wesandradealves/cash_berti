@@ -1,0 +1,64 @@
+.page--pra-sua-empresa {
+    .media-block {
+        margin-bottom: 80px;
+        @media screen and (min-width: $screen-lg-min) {
+            margin-top: 160px;
+            margin-bottom: 160px;
+        }
+        .yu2fvl {
+            @media screen and (min-width: $screen-lg-min) {
+                min-height: initial;
+                padding: 0;
+                width: 100%;
+                height: calc(100% - 90px);
+                // top: calc(50% - calc(50% - 45px));
+            }
+        }
+        [class*="container"] {
+            @media screen and (min-width: $screen-xl-min) {
+                max-width: 1140px;
+                @media screen and (min-width: $screen-xxl-min) {
+                    max-width: 1320px;
+                }                
+            }
+
+            > div {
+                &:last-of-type {
+                    @media screen and (min-width: $screen-lg-min) {
+                        width: 410px;
+                        @media screen and (min-width: $screen-xl-min) {
+                            height: 710px;
+                        }
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;                        
+                    }
+                }
+            }
+
+            &:not([class*="reverse"]) {
+                > div {
+                    &:first-of-type {
+                        @media screen and (min-width: $screen-lg-min) {
+                            width: calc(100% - 205px) !important;
+                            margin-right: -205px;
+                            padding-right: calc(410px - 120px);
+                        }
+                    }                
+
+                }          
+            }                    
+            &[class*="reverse"] {
+                > div {
+                    &:first-of-type {
+                        @media screen and (min-width: $screen-lg-min) {
+                            width: calc(100% - 205px) !important;
+                            margin-left: -205px;
+                            padding-left: calc(410px - 120px);
+                        }
+                    }                
+                }                 
+            }
+        }        
+    }
+}

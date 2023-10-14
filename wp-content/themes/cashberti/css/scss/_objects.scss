@@ -59,6 +59,17 @@ section {
     }
 }
 
+.wp-block-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+    img {
+        max-width: 100%;
+    }
+    padding: 0 35px;
+}
+
 .wp-block-embed {
     &.is-type-video {
         margin-bottom: 80px;

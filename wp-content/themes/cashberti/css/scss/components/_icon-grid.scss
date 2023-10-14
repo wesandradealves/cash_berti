@@ -1,0 +1,21 @@
+.icon-grid {
+    margin-bottom: 80px;
+    .container {
+        .title {
+            max-width: 100%;
+            @include toRem(font-size, 25);
+            span {
+                width: 100%;
+            }
+        }
+        img {
+            height: 96px;
+        }
+        p {
+            @include toRem(font-size, 18);
+        }
+        ul {
+            gap: 22px
+        }
+    }
+}

@@ -39,6 +39,22 @@
             $(this).find('.fa-solid').toggleClass('fa-plus fa-minus'),
             $(this).next().toggleClass('d-block d-none');
         });	
+
+        $( ".tabs-nav" ).on( "click", "[data-tab]", function(e) {
+            $(this).addClass("active"),
+            $(`[data-tab]`).not(this).removeClass("active"),
+            $(`.tab:not([data-tab="${e.target.dataset.tab}"])`).addClass("d-none").removeClass("d-block"),
+            $(`.tab[data-tab="${e.target.dataset.tab}"]`).removeClass("d-none").addClass("d-block"),
+            $('.tabs-carousel').css({
+                visibility: "hidden"
+            }),
+            setTimeout(function() { 
+                $('.tabs-carousel').css({
+                    visibility: "visible"
+                }),
+                $('.tabs-carousel').slick('refresh');
+            }, 100);            
+        });	        
         
         $('.item-carousel .items').slick({
             dots: false,
@@ -71,7 +87,7 @@
         $('.latest-posts .posts').slick({
             dots: false,
             infinite: true,
-            // autoplay: true,
+            autoplay: true,
             autoplaySpeed: 5000,            
             speed: 300,
             mobileFirst: true,
@@ -94,7 +110,41 @@
                     }
                 }
             ]                 
+        });       
+        
+        $('.text-carousel .items').slick({
+            dots: false,
+            infinite: true,
+            autoplay: true,
+            autoplaySpeed: 5000,            
+            speed: 300,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            initialSlide: 0,
+            prevArrow: $('.text-carousel-prev'),
+            nextArrow: $('.text-carousel-next'),            
+            adaptiveHeight: true,
         });        
+
+        $('.tabs-carousel').slick({
+            dots: false,
+            arrows: false,
+            infinite: true,
+            autoplaySpeed: 5000,            
+            speed: 300,
+            slidesToShow: 1,
+            mobileFirst: true,
+            slidesToScroll: 1,
+            initialSlide: 0,
+            responsive: [
+              {
+                breakpoint: 992,
+                settings: {
+                  slidesToShow: 2
+                }
+              }
+            ]
+        }), $('.tabs-carousel').slick('refresh');        
         
         // -
 
@@ -127,7 +177,7 @@
         });
 
         $("body").on("click", ".yu2fvl", function (e) {
-            $.yu2fvl({vid: e.target.dataset.id, open: true});
+            $.yu2fvl({vid: e.target.dataset.vid, open: true});
         });
 
         setTimeout(function () {

@@ -19,6 +19,8 @@
             @media screen and (max-width: $screen-lg-min) {
                 padding-top: 0;
             }
+            padding-left: 15px;
+            padding-right: 15px;            
             padding-bottom: 0;
             > div {
                 &:first-child {
@@ -69,7 +71,7 @@
         @media screen and (min-width: $screen-lg-min) {
             padding: 17px 20px;
             @media screen and (min-width: $screen-xxl-min) {
-                padding: 17px 40px;
+                padding: 17px 30px;
             }             
         }        
         @media screen and (max-width: $screen-xl-min) {
@@ -79,11 +81,12 @@
     }
     .container {
         padding-top: 80px;
+        padding-left: 15px;
+        padding-right: 15px;        
         @media screen and (min-width: $screen-lg-min) {
             padding-bottom: 80px;
+            max-width: 990px;
             @media screen and (min-width: $screen-xl-min) {
-                padding-left: 80px;
-                padding-right: 80px;
                 padding-top: 0;
                 padding-bottom: 0;            
             }

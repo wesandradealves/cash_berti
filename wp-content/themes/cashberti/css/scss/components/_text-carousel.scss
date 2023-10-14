@@ -1,0 +1,61 @@
+.text-carousel {
+    margin-bottom: 80px;
+    @media screen and (min-width: $screen-lg-min) {
+        margin-top: 184px;
+    }
+    &-navigation {
+        position: absolute;
+        top: 113px;
+        left: 0;
+        width: 100%;
+        height: 0;
+        padding: 0 64px;
+        button {
+            @include toRem(font-size, 22);
+        }
+    }
+    .container {
+        position: relative;
+        @media screen and (min-width: $screen-lg-min) {
+            &::after {
+                content: url(img/waves-alt-2.png);
+                position: absolute;
+                top: calc(50% - 700px);
+                left: calc(50% - 1100px);
+                z-index: 1;
+                opacity: .3;
+            }
+        }
+        img {
+            width: 689px;
+            height: 530px;
+            object-fit: cover;
+        }
+        > div {
+            position: relative;
+            z-index: 2;
+            &:last-of-type {
+                background-color: white;
+                z-index: 3;
+                padding: 95px 64px;
+                @media screen and (min-width: $screen-lg-min) {
+                    margin-left: -300px;
+                    top: -104px;
+                }
+                .items {
+                    padding: 0 50px;
+                    position: relative;
+                    .title {
+                        @include toRem(font-size, 36);
+                    }
+                    .text {
+                        @include toRem(font-size, 18);
+                    }
+                }
+                .content {
+                    @extend .items;
+                }
+            }
+        }
+    }
+}

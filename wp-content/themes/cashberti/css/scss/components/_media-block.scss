@@ -1,0 +1,58 @@
+.media-block {
+    margin-bottom: 80px;
+    .container {
+        position: relative;
+        > div {
+            position: relative;
+            color: white;
+            .title {
+                color: color(primary, base);
+                @include toRem(font-size, 36);
+            }
+            .text {
+                p {
+                    @include toRem(font-size, 18);
+                }
+            }
+            &:first-of-type {
+                padding: 30px;
+                position: relative;
+                @media screen and (min-width: $screen-lg-min) {
+                    padding: 60px 100px;
+                }
+                background-color: color(secondary, base);
+            }
+        }        
+    }
+    .yu2fvl {
+        min-height: 100%;
+        &::after {
+            content: "";
+            z-index: 1;
+            width: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            background-color: rgba(0,0,0,.7);
+            transition: 600ms ease-in-out all;
+        }
+        &:hover::after {
+            background-color: rgba(0,0,0,.2);
+        }
+        &::before {
+            content: url("img/ico-play.png");
+            position: absolute;
+            top: calc(50% - 32px);
+            left: calc(50% - 32px);
+            z-index: 2;
+        }
+        overflow: hidden;
+        position: relative;
+        padding: 0 0 100%;
+        @media screen and (min-width: $screen-lg-min) {
+            padding: 0 0 166%;
+        }
+        cursor: pointer;
+    }
+}

@@ -22,7 +22,7 @@
             @media screen and (min-width: $screen-xl-min) {
                 justify-content: flex-start;
             }
-            gap: 33px;
+            gap: 20px;
             .nav-item {
                 .nav-link {
                     @include toRem(font-size, 18);

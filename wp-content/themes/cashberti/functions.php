@@ -496,6 +496,77 @@ function rende_latest_posts(
     ]);
 }
 
+function render_text_carousel(
+    $block,
+    $content = "",
+    $is_preview = false,
+    $post_id = 0
+) {
+    get_template_part("/blocks/text-carousel", "text-carousel", [
+        "block" => $block,
+        "is_preview" => $is_preview,
+        "post_id" => $post_id,
+        "fields" => [
+            "items" => get_field("items"),
+            "imagem" => get_field("imagem")
+        ],
+    ]);
+}
+
+function render_tabs(
+    $block,
+    $content = "",
+    $is_preview = false,
+    $post_id = 0
+) {
+    get_template_part("/blocks/tabs", "tabs", [
+        "block" => $block,
+        "is_preview" => $is_preview,
+        "post_id" => $post_id,
+        "fields" => [
+            "tabs" => get_field("tabs"),
+            "cta" => get_field("cta")
+        ],
+    ]);
+}
+
+function render_icon_grid(
+    $block,
+    $content = "",
+    $is_preview = false,
+    $post_id = 0
+) {
+    get_template_part("/blocks/icon-grid", "icon-grid", [
+        "block" => $block,
+        "is_preview" => $is_preview,
+        "post_id" => $post_id,
+        "fields" => [
+            "items" => get_field("items"),
+            "title" => get_field("title")
+        ],
+    ]);
+}
+
+function render_media_block(
+    $block,
+    $content = "",
+    $is_preview = false,
+    $post_id = 0
+) {
+    get_template_part("/blocks/media-block", "media-block", [
+        "block" => $block,
+        "is_preview" => $is_preview,
+        "post_id" => $post_id,
+        "fields" => [
+            "imagem" => get_field("imagem"),
+            "video_id" => get_field("video_id"),
+            "title" => get_field("title"),
+            "text" => get_field("text"),
+            "reverse" => get_field("reverse")
+        ],
+    ]);
+}
+
 function render_item_carousel(
     $block,
     $content = "",
@@ -526,6 +597,7 @@ function render_text_block(
         "post_id" => $post_id,
         "fields" => [
             "title" => get_field("title"),
+            "items" => get_field("items"),
             "text" => get_field("text")
         ],
     ]);
@@ -563,6 +635,7 @@ function render_text_image_default(
         "is_preview" => $is_preview,
         "post_id" => $post_id,
         "fields" => [
+            "subtitle" => get_field("subtitulo"),
             "title" => get_field("title"),
             "text" => get_field("text"),
             "cta" => get_field("cta"),

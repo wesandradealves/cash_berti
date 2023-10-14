@@ -1,0 +1,23 @@
+.home {
+    [data-block-id="block_ca393dbc4d3326ad5edb2bca7dee1862"] {
+        .container {
+            position: relative;
+            * {
+                position: relative;
+                z-index: 4;
+            }
+            &::after {
+                @media screen and (min-width: $screen-xl-min) {
+                    content: url('img/waves.png');
+                }
+                position: absolute;
+                top: calc(50% - 720px);
+                @media screen and (min-width: $screen-xxl-min) {
+                    top: calc(50% - 675px);  
+                }
+                left: calc(50% - 1000px);
+                z-index: 2;
+            }
+        }
+    }
+}

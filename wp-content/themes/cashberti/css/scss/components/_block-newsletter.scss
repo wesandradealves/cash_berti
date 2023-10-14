@@ -3,6 +3,103 @@
     .container {
         background-color: color(secondary, base);
     }
+    .form {
+        .wpcf7-response-output {
+            display: none;
+        }
+        form.wpcf7-form.invalid {
+            margin-bottom: -33px;
+        }                
+        .form-group {
+            display: block;
+            width: 100%; 
+            &:last-child {
+                width: auto;
+                margin-right: auto;
+            }
+            input {
+                &:not([type="submit"]) {
+                    background-color: transparent;
+                    color: gray;
+                    border: 1px gray solid;
+                    border-radius: 10px;
+                    @include toRem(font-size, 12);
+                    padding: 18px 25px;
+                    width: 100%;
+                    outline: initial;
+                    @media screen and (min-width: $screen-xl-min) {
+                        max-width: 374px;
+                    }
+                    &::placeholder {
+                        color: gray;
+                        opacity: 1; 
+                    }
+                    &::-ms-input-placeholder { 
+                        color: gray;
+                    }
+                }
+            }
+        }
+    }
+    &.default {
+        .container {
+            padding: 0;
+            .form-group {
+                gap: 10px;
+                @media screen and (min-width: $screen-xl-min) {
+                    padding: 0 50px;
+                }
+                input {
+                    &:not([type="submit"]) {
+                        color: white;
+                        border: 1px white solid;
+                        @media screen and (min-width: $screen-xl-min) {
+                            max-width: initial;
+                        }
+                        &::placeholder {
+                            color: white;
+                        }
+                        &::-ms-input-placeholder { 
+                            color: white;
+                        }
+                    }
+                }
+            }
+            @media screen and (min-width: $screen-xl-min) {
+                max-width: 1140px;
+                @media screen and (min-width: $screen-xxl-min) {
+                    max-width: 1320px;
+                }                
+            }
+            > div {
+                .title {
+                    margin-bottom: 20px;
+                    @include toRem(font-size, 36);
+                }
+                .text {
+                    @include toRem(font-size, 18);
+                    color: white;
+                }
+                &:first-of-type {
+                    padding: 50px;
+                    @media screen and (min-width: $screen-xxl-min) {
+                        padding: 50px 100px;
+                    }
+                }
+                &:last-of-type {
+                    background-color: color(primary, base);
+                    padding: 60px;
+                    img {
+                        width: calc(100% + 120px);;
+                        max-width: initial;
+                        height: 300px;
+                        object-fit: cover;
+                        margin: -60px -60px 60px;
+                    }
+                }
+            }
+        }
+    }
     &.compact {
         @media screen and (min-width: $screen-lg-min) {
             margin-top: 160px;
@@ -15,44 +112,6 @@
             }
             .title {
                 color: color(secondary, base);
-            }
-            .form {
-                .wpcf7-response-output {
-                    display: none;
-                }
-                form.wpcf7-form.invalid {
-                    margin-bottom: -33px;
-                }                
-                .form-group {
-                    display: block;
-                    width: 100%; 
-                    &:last-child {
-                        width: auto;
-                        margin-right: auto;
-                    }
-                    input {
-                        &:not([type="submit"]) {
-                            background-color: transparent;
-                            color: gray;
-                            border: 1px gray solid;
-                            border-radius: 10px;
-                            @include toRem(font-size, 12);
-                            padding: 18px 25px;
-                            width: 100%;
-                            outline: initial;
-                            @media screen and (min-width: $screen-xl-min) {
-                                max-width: 374px;
-                            }
-                            &::placeholder {
-                                color: gray;
-                                opacity: 1; 
-                            }
-                            &::-ms-input-placeholder { 
-                                color: gray;
-                            }
-                        }
-                    }
-                }
             }
         }
     }

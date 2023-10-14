@@ -1,0 +1,44 @@
+.page--a-cash-berti {
+    .media-block {
+        @media screen and (min-width: $screen-lg-min) {
+            margin-bottom: 186px;
+        }
+        .container {
+            &::after {
+                @media screen and (min-width: $screen-md-min) {
+                    content: url("img/dashes.png");
+                }
+                position: absolute;
+                bottom: 50px;
+                left: -50px;
+                z-index: 1;
+            }
+            > div {
+                z-index: 2;
+            }
+            &:not([class*="reverse"]) {
+                @media screen and (min-width: $screen-lg-min) {
+                    left: 25px;
+                }
+                > div {
+                    &:last-of-type {
+                        @media screen and (min-width: $screen-lg-min) {
+                            margin-left: -50px;
+                            top: 106px;
+                        }
+                    }
+                }
+            }
+            &[class*="reverse"] {
+                > div {
+                    &:last-of-type {
+                        @media screen and (min-width: $screen-lg-min) {
+                            margin-right: -50px;
+                            top: 106px;
+                        }
+                    }
+                }
+            }            
+        }
+    }
+}
