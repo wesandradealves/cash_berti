@@ -542,7 +542,8 @@ function render_icon_grid(
         "post_id" => $post_id,
         "fields" => [
             "items" => get_field("items"),
-            "title" => get_field("title")
+            "title" => get_field("title"),
+            "carousel" => get_field("carousel")
         ],
     ]);
 }
@@ -561,8 +562,26 @@ function render_media_block(
             "imagem" => get_field("imagem"),
             "video_id" => get_field("video_id"),
             "title" => get_field("title"),
+            "subtitle" => get_field("subtitle"),
             "text" => get_field("text"),
             "reverse" => get_field("reverse")
+        ],
+    ]);
+}
+
+function render_testimonials(
+    $block,
+    $content = "",
+    $is_preview = false,
+    $post_id = 0
+) {
+    get_template_part("/blocks/testimonials", "testimonials", [
+        "block" => $block,
+        "is_preview" => $is_preview,
+        "post_id" => $post_id,
+        "fields" => [
+            "title" => get_field("title"),
+            "items" => get_field("items")
         ],
     ]);
 }

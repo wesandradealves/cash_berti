@@ -1,4 +1,5 @@
 .home {
+    [data-block-id="block_ca393dbc4d3326ad5edb2bca7dee1862"],
     [data-block-id="block_ca393dbc4d3326ad5edb2bca7dee1862"] {
         .container {
             position: relative;
@@ -20,4 +21,72 @@
             }
         }
     }
+    [data-block-id="block_438fc2c5bd1fc3c8a2a7ff9377ae2d3a"] {
+        .container {
+            &::after {
+                @media screen and (min-width: $screen-xl-min) {
+                    content: url('img/dashes.png');
+                }
+                position: absolute;
+                left: -50px;
+                z-index: 1;
+                bottom: 90px;
+            }
+            > * {
+                z-index: 2;
+            }
+            &[class*="reverse"] {
+                &::after {
+                    left: initial;
+                    right: -50px;
+                    transform: scale(-1, 1);
+                }
+            }
+        }
+    }
+    [data-block-id="block_6cc480e2125df3b6ecf873e42545bea7"] {
+        @media screen and (min-width: $screen-lg-min) {
+            margin-bottom: 220px;
+        }
+        .container {
+            &::after {
+                @media screen and (min-width: $screen-xl-min) {
+                    content: url('img/dashes.png');
+                }
+                position: absolute;
+                left: -100px;
+                z-index: 1;
+                bottom: -125px;
+            }
+            > * {
+                z-index: 2;
+                &:last-of-type {
+                    z-index: 1;
+                }
+                &:first-of-type {
+                    z-index: 2;
+                }                
+                img {
+                    @media screen and (min-width: $screen-lg-min) {
+                        bottom: -90px;
+                        width: 689px;
+                        max-width: initial;
+                        right: 200px;
+                    }
+                }
+            }
+            &[class*="reverse"] {
+                &::after {
+                    left: initial;
+                    right: -100px;
+                    transform: scale(-1, 1);
+                }
+                img {
+                    @media screen and (min-width: $screen-lg-min) {
+                        right: 0;
+                    }
+                }                
+            }
+        }
+    }    
 }

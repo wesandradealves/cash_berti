@@ -9,20 +9,36 @@
                 color: color(primary, base);
                 @include toRem(font-size, 36);
             }
+            .subtitle {
+                color: white;
+                @include toRem(font-size, 12);
+                text-transform: uppercase;
+            }             
             .text {
                 p {
                     @include toRem(font-size, 18);
+                    a {
+                        color: color(primary, base);
+                    }
                 }
             }
             &:first-of-type {
                 padding: 30px;
                 position: relative;
                 @media screen and (min-width: $screen-lg-min) {
-                    padding: 60px 100px;
+                    padding: 60px;
                 }
                 background-color: color(secondary, base);
             }
         }        
+    }
+    img {
+        @media screen and (min-width: $screen-lg-min) {
+            height: 530px;
+            object-fit: cover;
+            position: relative;
+            bottom: 45px;
+        } 
     }
     .yu2fvl {
         min-height: 100%;

@@ -1,5 +1,34 @@
 .icon-grid {
     margin-bottom: 80px;
+    &.carousel {
+        background-color: color(gray, light);
+        @media screen and (min-width: $screen-lg-min) {
+            margin-top: 300px;
+        }
+        .container {
+            padding-top: 140px;
+            padding-bottom: 140px;
+            position: relative;
+            .grid {
+                .title {
+                    font-weight: 500;
+                }
+            }
+            > .title {
+                @media screen and (min-width: $screen-lg-min) {
+                    background-color: color(secondary, base);
+                    color: white;
+                    padding: 45px 50px;
+                    max-width: 500px;
+                    position: absolute;
+                    bottom: calc(100% - 50px);
+                    left: 50px;
+                    margin: 0 !important;
+                    text-align: left !important;
+                }
+            }
+        }
+    }
     .container {
         .title {
             max-width: 100%;
@@ -8,14 +37,16 @@
                 width: 100%;
             }
         }
-        img {
-            height: 96px;
-        }
         p {
             @include toRem(font-size, 18);
         }
-        ul {
-            gap: 22px
+        .grid {
+            .slick-track {
+                @media screen and (min-width: $screen-lg-min) {
+                    gap: 22px;
+                }
+                display: flex;
+            }
         }
     }
 }

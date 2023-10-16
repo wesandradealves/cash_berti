@@ -84,6 +84,68 @@
             ]                 
         });
 
+        $('.icon-grid .grid').slick({
+            dots: false,
+            arrows: false,
+            infinite: true,
+            autoplay: true,
+            autoplaySpeed: 5000,            
+            speed: 300,
+            mobileFirst: true,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            initialSlide: 0,
+            adaptiveHeight: false,
+            centerMode: false,
+            responsive: [
+                {
+                    breakpoint: 768,
+                    settings: {
+                        centerMode: true,
+                        slidesToShow: 3,
+                    }
+                },
+                {
+                    breakpoint: 568,
+                    settings: {
+                        centerMode: true,
+                        slidesToShow: 2,
+                    }
+                }                
+            ]                 
+        });  
+        
+        $('.testimonials .items').slick({
+            dots: true,
+            arrows: false,
+            infinite: true,
+            autoplay: true,
+            autoplaySpeed: 5000,            
+            speed: 300,
+            mobileFirst: true,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            initialSlide: 0,
+            adaptiveHeight: false,
+            centerMode: false,
+            responsive: [
+                {
+                    breakpoint: 768,
+                    settings: {
+                        centerMode: true,
+                        slidesToShow: 3,
+                    }
+                },
+                {
+                    breakpoint: 568,
+                    settings: {
+                        centerMode: true,
+                        slidesToShow: 2,
+                    }
+                }                
+            ]                 
+        });           
+
         $('.latest-posts .posts').slick({
             dots: false,
             infinite: true,
