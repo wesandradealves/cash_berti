@@ -40,14 +40,15 @@
             $(this).next().toggleClass('d-block d-none');
         });	
 
-        $( ".tabs-nav" ).on( "click", "[data-tab]", function(e) {
-            $(this).addClass("active"),
-            $(`[data-tab]`).not(this).removeClass("active"),
-            $(`.tab:not([data-tab="${e.target.dataset.tab}"])`).addClass("hidden").removeClass("visible"),
-            $(`.tab[data-tab="${e.target.dataset.tab}"]`).removeClass("hidden").addClass("visible"),
+        $( ".tabs-nav" ).on( "click", "[data-tab] span", function(e) {
+            $(this).parent().addClass("active"),
+            $(`[data-tab]`).not($(this).parent()).removeClass("active"),
+            $(`.tab:not([data-tab="${$(this).parent().attr('data-tab')}"])`).addClass("hidden").removeClass("visible"),
+            $(`.tab[data-tab="${$(this).parent().attr('data-tab')}"]`).removeClass("hidden").addClass("visible"),
             setTimeout(function() { 
-                $('.tabs-carousel').slick('refresh');
-            }, 300);       
+                $('.tabs-carousel').slick('setPosition'); 
+                $('.tabs-carousel').refresh();            
+            }, 100);       
         });	         
         
         $('.item-carousel .items').slick({
@@ -175,13 +176,13 @@
                 {
                     breakpoint: 1200,
                     settings: {
-                        slidesToShow: 4,
+                        slidesToShow: 3,
                     }
-                },                
+                },   
                 {
                     breakpoint: 768,
                     settings: {
-                        slidesToShow: 3,
+                        slidesToShow: 2,
                     }
                 }
             ]                 
@@ -209,8 +210,8 @@
         $('.tabs-carousel').slick({
             dots: false,
             arrows: false,
-            infinite: true,
-            autoplay: true,
+            infinite: false,
+            autoplay: false,
             autoplaySpeed: 2000,            
             speed: 300,
             adaptiveHeight: true,

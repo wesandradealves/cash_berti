@@ -46,19 +46,4 @@ html, body {
     }
 }
 
-[data-block-id] {
-    .container {
-        @media screen and (min-width: $screen-lg-min) {
-            max-width: 990px;
-        }
-    }
-    p {
-        a {
-            text-decoration: underline;
-            &:hover {
-                text-decoration: initial;
-            }
-        }
-    }
-}
 

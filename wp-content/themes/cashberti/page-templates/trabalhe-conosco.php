@@ -12,7 +12,7 @@
     endif;
 ?>
 <?php if(get_Field('form_form_id')) : ?>
-<section class="form">
+<section class="form contact-form">
     <div class="container d-flex flex-wrap align-items-end">
         <?php if(get_field('form_imagem')) : ?>
             <div class="d-none d-xl-block flex-fill">

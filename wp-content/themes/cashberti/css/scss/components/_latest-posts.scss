@@ -13,7 +13,10 @@
     &.variation {
         background-color: color(gray, light);
         @media screen and (min-width: $screen-lg-min) {
-            height: 340px;
+            height: 440px;
+            @media screen and (min-width: $screen-xxl-min) {
+                height: 540px;
+            }
             margin-bottom: 300px;
         }
         .container {
@@ -27,9 +30,12 @@
         }
         .post-card { 
             &[class*="featured"] {
-                @media screen and (min-width: $screen-xl-min) {
+                @media screen and (min-width: $screen-lg-min) {
                     .inner {
-                        top: -100px;
+                        top: -55px;
+                        @media screen and (min-width: $screen-xxl-min) {
+                            top: -50px;
+                        }
                     }
                 }
             } 
@@ -49,14 +55,25 @@
             padding: 50px 0;
         }
         .post-card { 
+            .inner {
+                height: 450px;
+                @media screen and (min-width: $screen-xxl-min) {
+                    height: 550px;
+                }
+                .btn {
+                    padding: 13px 49px;
+                }
+            }            
             &[class*="featured"] {
-                @media screen and (min-width: $screen-xl-min) {
+                @media screen and (min-width: $screen-lg-min) {
                     position: relative;
                     z-index: 10;
                     .inner {
                         position: relative;
-                        box-shadow: 0px 0px 20px -10px black;
-                        height: 486px;
+                        height: 550px;
+                        @media screen and (min-width: $screen-xxl-min) {
+                            height: 650px;
+                        }
                     }
                 }
             } 

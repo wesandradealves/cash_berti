@@ -22,7 +22,7 @@
                     <a href="<?php echo $cta['url']; ?>" class="btn d-inline-block m-auto mt-5 <?php echo $cta['classes']; ?>"><?php echo $cta['label']; ?></a>
                 <?php endif; ?>
             </nav>
-            <div class="tabs-content col-12 col-md-7 d-block ms-auto">
+            <div class="tabs-content col-12 col-md-7 col-xl-8 d-block ms-auto">
                 <?php foreach ($tabs as $key => $tab) : ?>
                     <article class="<?php echo $key == 0 ? "visible" : "hidden"; ?> tab col-12" data-tab="<?php echo $key; ?>">
                         <div class="inner">

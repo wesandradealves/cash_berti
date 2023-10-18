@@ -11,12 +11,17 @@
         }
     }
     &-content {
+        @media screen and (min-width: $screen-md-min) {
+            min-height: 300px;
+        }
+        overflow: hidden;
         .tab {
-            visibility: visible;
+            z-index: 2;
+            position: relative;
             &.hidden {
-                visibility: hidden;
-                height: 0;
-                overflow: hidden;
+                position: absolute;
+                z-index: 1;
+                left: -9999px;
             }
             .slick-track {
                 display: flex;
@@ -25,7 +30,6 @@
                     font-weight: 500;
                     @include toRem(font-size, 25);
                     min-height: 52px;
-
                 }
                 .text {
                     @include toRem(font-size, 19);
@@ -54,21 +58,21 @@
             position: absolute;
             top: -60px;
             left: 0;
-            height: calc(100% + 85px);
+            height: calc(100% + 80px);
         }
         [data-tab] {
             background-color: color(gray, medium);
-            padding: 56px;
             line-height: 1;
-            @media screen and (min-width: $screen-md-min) {
-                padding: 0 56px;
-            }
             font-weight: 300;
+            display: block;
             text-align: center;
             @include toRem(font-size, 19);
             color: color(primary, base);
             > span {
-                max-width: 130px;
+                padding: 56px;
+                @media screen and (min-width: $screen-xl-min) {
+                    padding: 0 56px;
+                }
             }
             &.active {
                 background-color: color(secondary, base);

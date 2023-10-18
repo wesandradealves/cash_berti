@@ -1,6 +1,7 @@
 .text-image-default {
     margin-bottom: 80px;
     .subtitle {
+        font-weight: bold;
         color: color(secondary, base);
         @include toRem(font-size, 12);
         text-transform: uppercase;
@@ -17,7 +18,7 @@
                 &:first-of-type {
                     background-color: white;
                     @media screen and (min-width: $screen-xl-min) {
-                        padding: 100px 120px !important;
+                        padding: 100px 80px !important
                     }
                 }
             }

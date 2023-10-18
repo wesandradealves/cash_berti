@@ -3,7 +3,7 @@
         <div class="order-2 order-lg-1 col-12 col-lg-6 <?php if($args['fields']['reverse'] && $args['fields']['imagem']) : ?> text-end <?php endif; ?>">
             <?php if($args['fields']['title']||$args['fields']['subtitle']) : ?>
                 <?php if($args['fields']['subtitle']) : ?>
-                    <p class="d-block subtitle mb-2"><?php echo $args['fields']['subtitle']; ?></p>
+                    <p class="d-block subtitle mb-3"><?php echo $args['fields']['subtitle']; ?></p>
                 <?php endif; ?>                
                 <h2 class="d-flex title">
                     <span>

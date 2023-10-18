@@ -12,7 +12,7 @@
                 <?php foreach ($args['fields']['items'] as $item) : ?>
                     <div class="flex-fill ps-4 pe-4 ps-md-0 pe-md-0">
                         <img loading="lazy" class="img-fluid m-auto d-block" src="<?php echo $item['imagem']; ?>" alt="<?php echo $args['fields']['title']; ?>">
-                        <h3 class="d-block title ps-3 pe-3 text-center mt-4"><?php echo $item['title']; ?></h3>
+                        <h3 class="d-flex flex-column justify-content-end title text-center mt-4"><?php echo $item['title']; ?></h3>
                         <p class="d-block text text-center mt-4"><?php echo $item['text']; ?></p>
                     </div>
                 <?php endforeach; ?>

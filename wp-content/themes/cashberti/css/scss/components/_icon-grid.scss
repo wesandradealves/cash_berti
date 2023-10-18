@@ -30,15 +30,26 @@
         }
     }
     .container {
+        @media screen and (min-width: $screen-xl-min) {
+            max-width: 1140px;
+            // @media screen and (min-width: $screen-xxl-min) {
+            //     max-width: 1320px;
+            // }                
+        }        
+        img {
+            max-height: 90px;
+        }
         .title {
             max-width: 100%;
             @include toRem(font-size, 25);
+            min-height: 52px;
+            padding: 0 10px;
             span {
                 width: 100%;
             }
         }
         p {
-            @include toRem(font-size, 19);
+            @include toRem(font-size, 18);
         }
         .grid {
             .slick-track {

@@ -53,7 +53,7 @@
             .title {
                 margin-top: 29px;
                 margin-bottom: 27px;
-                @include toRem(font-size, 24);
+                @include toRem(font-size, 25);
                 .role {
                     @include toRem(font-size, 12);
                     color: color(secondary, base);
@@ -62,7 +62,7 @@
                 }
             }           
             .text {
-                @include toRem(font-size, 19);
+                @include toRem(font-size, 18);
             } 
         }
     }

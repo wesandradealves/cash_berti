@@ -1,12 +1,19 @@
 .media-block {
     margin-bottom: 80px;
+    &.video {
+        .container:not([class="reverse"])>div:first-of-type {
+            @media screen and (min-width: $screen-lg-min) {
+                padding-right: 120px;
+            }
+        }
+    }
     .container {
         position: relative;
         &:not([class="reverse"]) {
             >div {
                 &:first-of-type {
                     @media screen and (min-width: $screen-lg-min) {
-                        padding-right: 120px;
+                        padding-right: 60px;
                     }
                 }
             }
@@ -19,6 +26,7 @@
                 @include toRem(font-size, 36);
             }
             .subtitle {
+                font-weight: bold;
                 color: white;
                 @include toRem(font-size, 12);
                 text-transform: uppercase;

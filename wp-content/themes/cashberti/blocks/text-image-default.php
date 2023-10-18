@@ -3,7 +3,7 @@
         <div class="flex-fill mt-5 mt-lg-0 order-2 order-lg-1 <?php echo $args['fields']['reverse'] ? 'ps-lg-5' : 'pe-lg-5'; ?>">
             <?php if($args['fields']['title']||$args['fields']['subtitle']) : ?>
                 <?php if($args['fields']['subtitle']) : ?>
-                    <p class="subtitle d-block text-<?php echo strtolower($args['fields']['layout'])  == 'boxed' && $args['fields']['reverse'] ? 'xl-end' : 'text-start'; ?>"><?php echo $args['fields']['subtitle']; ?></p>
+                    <p class="subtitle d-block mb-3 text-<?php echo strtolower($args['fields']['layout'])  == 'boxed' && $args['fields']['reverse'] ? 'xl-end' : 'text-start'; ?>"><?php echo $args['fields']['subtitle']; ?></p>
                 <?php endif; ?>
                 <h2 class="d-flex title <?php echo strtolower($args['fields']['layout'])  == 'boxed' && $args['fields']['reverse'] ? 'text-xl-end' : 'text-start'; ?>">
                     <span>

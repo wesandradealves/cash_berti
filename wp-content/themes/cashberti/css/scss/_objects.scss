@@ -2,7 +2,7 @@
     display: inline-flex;
     padding: 17px 49px;
     border-radius: 10px;
-    font-weight: 500;
+    font-weight: bold;
     text-align: center;
     @include toRem(font-size, 12);
     color: white;
@@ -116,3 +116,34 @@ section {
     }
 }
 
+
+[data-block-id] {
+    .container {
+        @media screen and (min-width: $screen-lg-min) {
+            max-width: 990px;
+        }
+    }
+
+    .title {
+        @include toRem(font-size, 36);
+    }
+    
+    .text {
+        @include toRem(font-size, 18);
+    }
+    
+    .subtitle {
+        @include toRem(font-size, 12);
+    }
+    
+    p {
+        a {
+            text-decoration: underline;
+            color: color(primary, base);
+            font-weight: bold;
+            &:hover {
+                text-decoration: initial;
+            }
+        }
+    }
+}
