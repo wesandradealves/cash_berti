@@ -52,7 +52,7 @@ section {
                 max-width: 418px;
             } 
             .text {
-                @include toRem(font-size, 18);
+                @include toRem(font-size, 19);
             }            
         }
     }

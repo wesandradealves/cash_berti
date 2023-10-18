@@ -6,7 +6,7 @@
     z-index: 2;
     @include toRem(font-size, 14);
     @media screen and (min-width: $screen-md-min) {
-        @include toRem(font-size, 18);
+        @include toRem(font-size, 19);
     }
     .container {
         padding-top: 17px;

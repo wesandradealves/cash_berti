@@ -24,7 +24,7 @@
             </nav>
             <div class="tabs-content col-12 col-md-7 d-block ms-auto">
                 <?php foreach ($tabs as $key => $tab) : ?>
-                    <article class="d-<?php echo $key == 0 ? "block" : "none"; ?> tab" data-tab="<?php echo $key; ?>">
+                    <article class="<?php echo $key == 0 ? "visible" : "hidden"; ?> tab col-12" data-tab="<?php echo $key; ?>">
                         <div class="inner">
                             <?php if($tab['items']): ?>
                                 <div class="col-12 tabs-carousel">

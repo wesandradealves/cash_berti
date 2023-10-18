@@ -43,18 +43,12 @@
         $( ".tabs-nav" ).on( "click", "[data-tab]", function(e) {
             $(this).addClass("active"),
             $(`[data-tab]`).not(this).removeClass("active"),
-            $(`.tab:not([data-tab="${e.target.dataset.tab}"])`).addClass("d-none").removeClass("d-block"),
-            $(`.tab[data-tab="${e.target.dataset.tab}"]`).removeClass("d-none").addClass("d-block"),
-            $('.tabs-carousel').css({
-                visibility: "hidden"
-            }),
+            $(`.tab:not([data-tab="${e.target.dataset.tab}"])`).addClass("hidden").removeClass("visible"),
+            $(`.tab[data-tab="${e.target.dataset.tab}"]`).removeClass("hidden").addClass("visible"),
             setTimeout(function() { 
-                $('.tabs-carousel').css({
-                    visibility: "visible"
-                }),
                 $('.tabs-carousel').slick('refresh');
-            }, 100);            
-        });	        
+            }, 300);       
+        });	         
         
         $('.item-carousel .items').slick({
             dots: false,
@@ -216,8 +210,10 @@
             dots: false,
             arrows: false,
             infinite: true,
-            autoplaySpeed: 5000,            
+            autoplay: true,
+            autoplaySpeed: 2000,            
             speed: 300,
+            adaptiveHeight: true,
             slidesToShow: 1,
             mobileFirst: true,
             slidesToScroll: 1,

@@ -25,7 +25,7 @@
             gap: 20px;
             .nav-item {
                 .nav-link {
-                    @include toRem(font-size, 18);
+                    @include toRem(font-size, 19);
                 }
             }
         }
@@ -116,7 +116,7 @@
                     }
                 }
                 [class*="fa"] {
-                    @include toRem(font-size, 22);
+                    @include toRem(font-size, 19);
                     position: relative;
                     top: 1px;
                     color: color(secondary, base);

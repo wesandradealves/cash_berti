@@ -17,11 +17,7 @@
         [class*="container"] {
             @media screen and (min-width: $screen-xl-min) {
                 max-width: 1140px;
-                @media screen and (min-width: $screen-xxl-min) {
-                    max-width: 1320px;
-                }                
             }
-
             > div {
                 &:last-of-type {
                     @media screen and (min-width: $screen-lg-min) {
@@ -31,7 +27,7 @@
                         }
                         display: flex;
                         justify-content: center;
-                        align-items: center;                        
+                        align-items: center;    
                     }
                 }
             }
@@ -43,6 +39,9 @@
                             width: calc(100% - 205px) !important;
                             margin-right: -205px;
                             padding-right: calc(410px - 120px);
+                            @media screen and (min-width: $screen-xl-min) {
+                                padding-left: 160px;
+                            }
                         }
                     }                
 
@@ -55,6 +54,9 @@
                             width: calc(100% - 205px) !important;
                             margin-left: -205px;
                             padding-left: calc(410px - 120px);
+                            @media screen and (min-width: $screen-xl-min) {
+                                padding-right: 160px;
+                            }
                         }
                     }                
                 }                 

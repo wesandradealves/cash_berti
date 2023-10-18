@@ -11,7 +11,7 @@
         height: 0;
         padding: 0 64px;
         button {
-            @include toRem(font-size, 22);
+            @include toRem(font-size, 19);
         }
     }
     .container {
@@ -49,7 +49,7 @@
                         @include toRem(font-size, 36);
                     }
                     .text {
-                        @include toRem(font-size, 18);
+                        @include toRem(font-size, 19);
                     }
                 }
                 .content {

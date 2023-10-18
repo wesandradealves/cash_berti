@@ -16,7 +16,7 @@
             }             
             .text {
                 p {
-                    @include toRem(font-size, 18);
+                    @include toRem(font-size, 19);
                     a {
                         color: color(primary, base);
                     }

@@ -12,6 +12,12 @@
     }
     &-content {
         .tab {
+            visibility: visible;
+            &.hidden {
+                visibility: hidden;
+                height: 0;
+                overflow: hidden;
+            }
             .slick-track {
                 display: flex;
                 gap: 30px;
@@ -22,7 +28,7 @@
 
                 }
                 .text {
-                    @include toRem(font-size, 18);
+                    @include toRem(font-size, 19);
                 }
                 img {
                     height: 60px;
@@ -31,20 +37,14 @@
         }
     }
     &-nav {
-        // @media screen and (min-width: $screen-lg-min) {
-        //     padding-right: 100px;
-        //     @media screen and (min-width: $screen-xl-min) {
-        //         margin-left: -70px;
-        //         @media screen and (min-width: $screen-xxl-min) {
-        //             margin-left: -164px;
-        //         }                        
-        //     }                      
-        // }
         > ul {
             background-color: color(gray, medium);
             > li {
-                flex: 0 0 auto;
+                flex: 1;
                 width: 100%;
+                > a {
+                    height: 100%;
+                }
             }
         }
         margin: -82px -25px 80px;
@@ -59,9 +59,13 @@
         [data-tab] {
             background-color: color(gray, medium);
             padding: 56px;
+            line-height: 1;
+            @media screen and (min-width: $screen-md-min) {
+                padding: 0 56px;
+            }
             font-weight: 300;
             text-align: center;
-            @include toRem(font-size, 22);
+            @include toRem(font-size, 19);
             color: color(primary, base);
             > span {
                 max-width: 130px;

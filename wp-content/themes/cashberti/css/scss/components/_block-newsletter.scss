@@ -77,7 +77,7 @@
                     @include toRem(font-size, 34);
                 }
                 .text {
-                    @include toRem(font-size, 22);
+                    @include toRem(font-size, 19);
                     color: white;
                 }
                 &:first-of-type {
