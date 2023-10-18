@@ -32,7 +32,7 @@
                                         <article class="d-flex flex-column justify-content-center align-items-center text-center">
                                             <img loading="lazy" class="d-inline-block m-auto img-fluid" src="<?php echo $item['imagem']; ?>" alt="<?php echo $item['title']; ?>">
                                             <h3 class="d-block title mt-4"><?php echo $item['title']; ?></h3>
-                                            <p class="d-block text mt-5"><?php echo $item['text']; ?></p>
+                                            <p class="d-block text mt-2"><?php echo $item['text']; ?></p>
                                         </article>
                                     <?php endforeach; ?>
                                 </div>

@@ -455,7 +455,7 @@ function render_faq(
 ) {
 
     $posts = new WP_Query( array(
-        'order' => 'DESC',
+        'order' => 'ASC',
         'post_type'      => "faq",
         'posts_per_page' => -1,
     ) );

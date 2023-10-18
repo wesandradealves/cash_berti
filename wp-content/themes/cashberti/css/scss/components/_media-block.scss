@@ -2,6 +2,15 @@
     margin-bottom: 80px;
     .container {
         position: relative;
+        &:not([class="reverse"]) {
+            >div {
+                &:first-of-type {
+                    @media screen and (min-width: $screen-lg-min) {
+                        padding-right: 120px;
+                    }
+                }
+            }
+        }
         > div {
             position: relative;
             color: white;
@@ -23,10 +32,10 @@
                 }
             }
             &:first-of-type {
-                padding: 30px;
+                padding: 45px;
                 position: relative;
                 @media screen and (min-width: $screen-lg-min) {
-                    padding: 60px;
+                    padding: 60px 80px;
                 }
                 background-color: color(secondary, base);
             }
