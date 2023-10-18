@@ -99,16 +99,20 @@
             centerMode: false,
             responsive: [
                 {
+                    breakpoint: 992,
+                    settings: {
+                        slidesToShow: 4,
+                    }
+                },                
+                {
                     breakpoint: 768,
                     settings: {
-                        centerMode: true,
                         slidesToShow: 3,
                     }
                 },
                 {
                     breakpoint: 568,
                     settings: {
-                        centerMode: true,
                         slidesToShow: 2,
                     }
                 }                
@@ -144,12 +148,27 @@
                     }
                 }                
             ]                 
-        });           
+        }); 
+        
+        $('.logos-block .items').slick({
+            dots: false,
+            arrows: false,
+            infinite: true,
+            autoplay: true,
+            autoplaySpeed: 5000,            
+            speed: 300,
+            mobileFirst: false,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            initialSlide: 0,
+            adaptiveHeight: true,
+            centerMode: false                
+        });         
 
         $('.latest-posts .posts').slick({
             dots: false,
             infinite: true,
-            autoplay: true,
+            // autoplay: true,
             autoplaySpeed: 5000,            
             speed: 300,
             mobileFirst: true,
@@ -172,7 +191,12 @@
                     }
                 }
             ]                 
-        });       
+        }).on('afterChange', function(event, slick, currentSlideIndex) {
+            $('.latest-posts .posts').find(".featured").removeClass("featured"),
+            $('.latest-posts .posts').find(".slick-current").prev().addClass("featured")
+        }), $('.latest-posts .posts').find(".slick-current").prev().addClass("featured")
+
+        $('.latest-posts .posts').slick('slickCurrentSlide')
         
         $('.text-carousel .items').slick({
             dots: false,

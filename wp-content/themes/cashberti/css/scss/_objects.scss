@@ -2,12 +2,11 @@
     display: inline-flex;
     padding: 17px 49px;
     border-radius: 10px;
-    font-weight: bolder;
+    font-weight: 500;
     text-align: center;
     @include toRem(font-size, 12);
     color: white;
     border: 1px transparent solid;
-    font-weight: 300;
     text-transform: uppercase;
     &.secondary {
         background-color: color(secondary, base);
@@ -49,7 +48,7 @@ section {
     .container {
         > {
             .title {
-                @include toRem(font-size, 36);
+                @include toRem(font-size, 28);
                 max-width: 418px;
             } 
             .text {
@@ -116,3 +115,4 @@ section {
         }
     }
 }
+

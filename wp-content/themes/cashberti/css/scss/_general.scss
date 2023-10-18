@@ -53,3 +53,78 @@ html, body {
         }
     }
 }
+
+.page-template-default {
+    .content {
+        @media screen and (min-width: $screen-md-min) {
+            margin-top: 80px;
+        }
+        .container {
+            background-color: white;
+            padding: 35px;
+            @media screen and (min-width: $screen-md-min) {
+                padding: 90px;
+            }
+            @include toRem(font-size, 18);
+
+            @media screen and (min-width: $screen-lg-min) {
+                max-width: 990px;
+            }       
+
+            @for $i from 1 through 3 {
+                h#{$i} {
+                    &:not(:first-child) {
+                        margin-top: 1rem;
+                    }
+                    & ~ * {
+                        margin-top: 1rem;
+                    }             
+                }
+            }    
+            
+            img {
+                display: block;
+                width: 100%;
+                object-fit: cover;
+                &:not(:only-child) ~ * {
+                    margin-top: 1rem;
+                }                 
+            }
+        
+            p {
+                & ~ * {
+                    margin-top: 1rem;
+                }         
+                strong, b {
+                    font-weight: bold !important;
+                }
+                word-break: break-word;
+                word-wrap: break-word;
+                overflow-wrap: break-word;
+                * {
+                    word-break: inherit;
+                    word-wrap: inherit;
+                    overflow-wrap: inherit;
+                }    
+            }
+            
+            ul, ol {
+                list-style: disc;
+                line-height: 1.4;
+                :not(:first-child) ~ * {
+                    margin-top: 1rem;
+                }
+                padding-left: 20px;
+                padding-right: 35px;
+                li {
+                    line-height: inherit;
+                    &:first-child ~ * {
+                        margin-top: 1rem;
+                    }             
+                }
+            }                      
+        }
+
+        margin-bottom: 80px;
+    }    
+}

@@ -28,7 +28,7 @@
         </div>
         <?php if($args['fields']['imagem']) : ?>
             <div class="order-1 order-lg-2 d-flex align-items-center justify-content-center col-12 col-lg-6">
-                <img loading="lazy" class="d-block img-fluid col-12 col-lg-auto" src="<?php echo $args['fields']['imagem']; ?>" alt="<?php echo $args['fields']['title']; ?>">
+                <img loading="lazy" class="d-block img-fluid m-auto" src="<?php echo $args['fields']['imagem']; ?>" alt="<?php echo $args['fields']['title']; ?>">
             </div>
         <?php endif; ?>
     </div>

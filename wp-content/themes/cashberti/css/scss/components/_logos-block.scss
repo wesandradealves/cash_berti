@@ -1,0 +1,23 @@
+.logos-block {
+    margin-bottom: 80px;
+    color: white;
+    .container {
+        > div {
+            background-color: color(gray, light);
+            padding: 35px;
+            &:first-of-type {
+                background-color: color(primary, base);
+                @media screen and (min-width: $screen-lg-min) {
+                    padding: 80px;
+                    @media screen and (min-width: $screen-xxl-min) {
+                        padding: 80px 160px;
+                    }                    
+                }
+            }
+            img {
+                max-height: 105px;
+                width: auto;
+            }
+        }
+    }
+}

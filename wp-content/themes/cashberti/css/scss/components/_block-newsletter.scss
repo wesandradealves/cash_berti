@@ -47,7 +47,7 @@
             .form-group {
                 gap: 10px;
                 @media screen and (min-width: $screen-xl-min) {
-                    padding: 0 50px;
+                    padding: 0 35px;
                 }
                 input {
                     &:not([type="submit"]) {
@@ -67,23 +67,23 @@
             }
             @media screen and (min-width: $screen-xl-min) {
                 max-width: 1140px;
-                @media screen and (min-width: $screen-xxl-min) {
-                    max-width: 1320px;
-                }                
+                // @media screen and (min-width: $screen-xxl-min) {
+                //     max-width: 1320px;
+                // }                
             }
             > div {
                 .title {
                     margin-bottom: 20px;
-                    @include toRem(font-size, 36);
+                    @include toRem(font-size, 34);
                 }
                 .text {
-                    @include toRem(font-size, 18);
+                    @include toRem(font-size, 22);
                     color: white;
                 }
                 &:first-of-type {
-                    padding: 50px;
-                    @media screen and (min-width: $screen-xxl-min) {
-                        padding: 50px 100px;
+                    padding: 40px;
+                    @media screen and (min-width: $screen-lg-min) {
+                        padding: 70px 80px;
                     }
                 }
                 &:last-of-type {

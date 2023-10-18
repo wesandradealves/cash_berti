@@ -586,6 +586,22 @@ function render_testimonials(
     ]);
 }
 
+function render_logos_block(
+    $block,
+    $content = "",
+    $is_preview = false,
+    $post_id = 0
+) {
+    get_template_part("/blocks/logos-block", "logos-block", [
+        "block" => $block,
+        "is_preview" => $is_preview,
+        "post_id" => $post_id,
+        "fields" => [
+            "title" => get_field("title"),
+            "items" => get_field("items")
+        ],
+    ]);
+}
 function render_item_carousel(
     $block,
     $content = "",

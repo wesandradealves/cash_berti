@@ -2464,3 +2464,291 @@ Oct 14 2023 19:15:28
 Oct 14 2023 19:15:28
 {"type":8192,"message":"Return type of Ai1wm_Recursive_Exclude_Filter::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\cashberti\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\filter\\class-ai1wm-recursive-exclude-filter.php","line":41}
 
+Oct 14 2023 19:15:29
+{"type":8192,"message":"Return type of Ai1wm_Recursive_Exclude_Filter::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\cashberti\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\filter\\class-ai1wm-recursive-exclude-filter.php","line":41}
+
+Oct 14 2023 19:15:30
+{"type":8192,"message":"Return type of Ai1wm_Recursive_Exclude_Filter::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\cashberti\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\filter\\class-ai1wm-recursive-exclude-filter.php","line":41}
+
+Oct 14 2023 19:15:32
+{"type":8192,"message":"Return type of Ai1wm_Recursive_Exclude_Filter::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\cashberti\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\filter\\class-ai1wm-recursive-exclude-filter.php","line":41}
+
+Oct 14 2023 19:15:33
+{"type":8192,"message":"Return type of Ai1wm_Recursive_Exclude_Filter::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\cashberti\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\filter\\class-ai1wm-recursive-exclude-filter.php","line":41}
+
+Oct 16 2023 07:39:32
+{"Number":8192,"Message":"explode(): Passing null to parameter #2 ($string) of type string is deprecated","File":"C:\\xampp\\htdocs\\cashberti\\wp-content\\plugins\\all-in-one-wp-migration\\functions.php","Line":359}
+
+Oct 16 2023 07:39:32
+{"type":8192,"message":"Return type of Ai1wm_Recursive_Exclude_Filter::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\cashberti\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\filter\\class-ai1wm-recursive-exclude-filter.php","line":41}
+
+Oct 16 2023 07:39:33
+{"type":8192,"message":"Return type of Ai1wm_Recursive_Exclude_Filter::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\cashberti\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\filter\\class-ai1wm-recursive-exclude-filter.php","line":41}
+
+Oct 16 2023 07:39:33
+{"type":8192,"message":"Return type of Ai1wm_Recursive_Exclude_Filter::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\cashberti\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\filter\\class-ai1wm-recursive-exclude-filter.php","line":41}
+
+Oct 16 2023 07:39:34
+{"type":8192,"message":"Return type of Ai1wm_Recursive_Exclude_Filter::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\cashberti\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\filter\\class-ai1wm-recursive-exclude-filter.php","line":41}
+
+Oct 16 2023 07:39:35
+{"type":8192,"message":"Return type of Ai1wm_Recursive_Exclude_Filter::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\cashberti\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\filter\\class-ai1wm-recursive-exclude-filter.php","line":41}
+
+Oct 16 2023 07:39:37
+{"type":8192,"message":"Return type of Ai1wm_Recursive_Exclude_Filter::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\cashberti\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\filter\\class-ai1wm-recursive-exclude-filter.php","line":41}
+
+Oct 16 2023 07:39:37
+{"type":8192,"message":"Return type of Ai1wm_Recursive_Exclude_Filter::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\cashberti\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\filter\\class-ai1wm-recursive-exclude-filter.php","line":41}
+
+Oct 16 2023 07:39:41
+{"type":8192,"message":"Return type of Ai1wm_Recursive_Exclude_Filter::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\cashberti\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\filter\\class-ai1wm-recursive-exclude-filter.php","line":41}
+
+Oct 16 2023 07:39:45
+{"type":8192,"message":"Return type of Ai1wm_Recursive_Exclude_Filter::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\cashberti\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\filter\\class-ai1wm-recursive-exclude-filter.php","line":41}
+
+Oct 16 2023 07:39:48
+{"type":8192,"message":"Return type of Ai1wm_Recursive_Exclude_Filter::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\cashberti\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\filter\\class-ai1wm-recursive-exclude-filter.php","line":41}
+
+Oct 16 2023 07:39:49
+{"type":8192,"message":"Return type of Ai1wm_Recursive_Exclude_Filter::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\cashberti\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\filter\\class-ai1wm-recursive-exclude-filter.php","line":41}
+
+Oct 16 2023 07:39:50
+{"type":8192,"message":"Return type of Ai1wm_Recursive_Exclude_Filter::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\cashberti\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\filter\\class-ai1wm-recursive-exclude-filter.php","line":41}
+
+Oct 16 2023 07:39:51
+{"type":8192,"message":"Return type of Ai1wm_Recursive_Exclude_Filter::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\cashberti\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\filter\\class-ai1wm-recursive-exclude-filter.php","line":41}
+
+Oct 16 2023 07:39:52
+{"type":8192,"message":"Return type of Ai1wm_Recursive_Exclude_Filter::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\cashberti\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\filter\\class-ai1wm-recursive-exclude-filter.php","line":41}
+
+Oct 16 2023 07:39:53
+{"type":8192,"message":"Return type of Ai1wm_Recursive_Exclude_Filter::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\cashberti\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\filter\\class-ai1wm-recursive-exclude-filter.php","line":41}
+
+Oct 16 2023 07:39:54
+{"type":8192,"message":"Return type of Ai1wm_Recursive_Exclude_Filter::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\cashberti\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\filter\\class-ai1wm-recursive-exclude-filter.php","line":41}
+
+Oct 16 2023 07:39:55
+{"type":8192,"message":"Return type of Ai1wm_Recursive_Exclude_Filter::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\cashberti\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\filter\\class-ai1wm-recursive-exclude-filter.php","line":41}
+
+Oct 16 2023 07:39:57
+{"type":8192,"message":"Return type of Ai1wm_Recursive_Exclude_Filter::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\cashberti\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\filter\\class-ai1wm-recursive-exclude-filter.php","line":41}
+
+Oct 16 2023 07:39:58
+{"type":8192,"message":"Return type of Ai1wm_Recursive_Exclude_Filter::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\cashberti\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\filter\\class-ai1wm-recursive-exclude-filter.php","line":41}
+
+Oct 16 2023 08:28:43
+{"Number":8192,"Message":"explode(): Passing null to parameter #2 ($string) of type string is deprecated","File":"C:\\xampp\\htdocs\\cashberti\\wp-content\\plugins\\all-in-one-wp-migration\\functions.php","Line":359}
+
+Oct 16 2023 08:28:43
+{"type":8192,"message":"Return type of Ai1wm_Recursive_Exclude_Filter::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\cashberti\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\filter\\class-ai1wm-recursive-exclude-filter.php","line":41}
+
+Oct 16 2023 08:28:44
+{"type":8192,"message":"Return type of Ai1wm_Recursive_Exclude_Filter::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\cashberti\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\filter\\class-ai1wm-recursive-exclude-filter.php","line":41}
+
+Oct 16 2023 08:28:44
+{"type":8192,"message":"Return type of Ai1wm_Recursive_Exclude_Filter::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\cashberti\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\filter\\class-ai1wm-recursive-exclude-filter.php","line":41}
+
+Oct 16 2023 08:28:45
+{"type":8192,"message":"Return type of Ai1wm_Recursive_Exclude_Filter::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\cashberti\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\filter\\class-ai1wm-recursive-exclude-filter.php","line":41}
+
+Oct 16 2023 08:28:46
+{"type":8192,"message":"Return type of Ai1wm_Recursive_Exclude_Filter::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\cashberti\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\filter\\class-ai1wm-recursive-exclude-filter.php","line":41}
+
+Oct 16 2023 08:28:48
+{"type":8192,"message":"Return type of Ai1wm_Recursive_Exclude_Filter::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\cashberti\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\filter\\class-ai1wm-recursive-exclude-filter.php","line":41}
+
+Oct 16 2023 08:28:48
+{"type":8192,"message":"Return type of Ai1wm_Recursive_Exclude_Filter::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\cashberti\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\filter\\class-ai1wm-recursive-exclude-filter.php","line":41}
+
+Oct 16 2023 08:28:52
+{"type":8192,"message":"Return type of Ai1wm_Recursive_Exclude_Filter::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\cashberti\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\filter\\class-ai1wm-recursive-exclude-filter.php","line":41}
+
+Oct 16 2023 08:28:52
+{"type":8192,"message":"Return type of Ai1wm_Recursive_Exclude_Filter::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\cashberti\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\filter\\class-ai1wm-recursive-exclude-filter.php","line":41}
+
+Oct 16 2023 08:28:53
+{"type":8192,"message":"Return type of Ai1wm_Recursive_Exclude_Filter::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\cashberti\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\filter\\class-ai1wm-recursive-exclude-filter.php","line":41}
+
+Oct 16 2023 08:28:54
+{"type":8192,"message":"Return type of Ai1wm_Recursive_Exclude_Filter::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\cashberti\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\filter\\class-ai1wm-recursive-exclude-filter.php","line":41}
+
+Oct 16 2023 08:28:55
+{"type":8192,"message":"Return type of Ai1wm_Recursive_Exclude_Filter::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\cashberti\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\filter\\class-ai1wm-recursive-exclude-filter.php","line":41}
+
+Oct 16 2023 08:28:56
+{"type":8192,"message":"Return type of Ai1wm_Recursive_Exclude_Filter::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\cashberti\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\filter\\class-ai1wm-recursive-exclude-filter.php","line":41}
+
+Oct 16 2023 08:28:56
+{"type":8192,"message":"Return type of Ai1wm_Recursive_Exclude_Filter::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\cashberti\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\filter\\class-ai1wm-recursive-exclude-filter.php","line":41}
+
+Oct 16 2023 08:28:57
+{"type":8192,"message":"Return type of Ai1wm_Recursive_Exclude_Filter::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\cashberti\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\filter\\class-ai1wm-recursive-exclude-filter.php","line":41}
+
+Oct 16 2023 08:29:00
+{"type":8192,"message":"Return type of Ai1wm_Recursive_Exclude_Filter::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\cashberti\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\filter\\class-ai1wm-recursive-exclude-filter.php","line":41}
+
+Oct 16 2023 08:29:01
+{"type":8192,"message":"Return type of Ai1wm_Recursive_Exclude_Filter::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\cashberti\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\filter\\class-ai1wm-recursive-exclude-filter.php","line":41}
+
+Oct 16 2023 09:19:17
+{"Number":8192,"Message":"explode(): Passing null to parameter #2 ($string) of type string is deprecated","File":"C:\\xampp\\htdocs\\cashberti\\wp-content\\plugins\\all-in-one-wp-migration\\functions.php","Line":359}
+
+Oct 16 2023 09:19:17
+{"type":8192,"message":"Return type of Ai1wm_Recursive_Exclude_Filter::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\cashberti\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\filter\\class-ai1wm-recursive-exclude-filter.php","line":41}
+
+Oct 16 2023 09:19:18
+{"type":8192,"message":"Return type of Ai1wm_Recursive_Exclude_Filter::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\cashberti\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\filter\\class-ai1wm-recursive-exclude-filter.php","line":41}
+
+Oct 16 2023 09:19:18
+{"type":2,"message":"unlink(C:\\xampp\\htdocs\\cashberti\/wp-content\/plugins\/wp-scss\/cache\/style.css): No such file or directory","file":"C:\\xampp\\htdocs\\cashberti\\wp-content\\plugins\\wp-scss\\class\\class-wp-scss.php","line":108}
+
+Oct 16 2023 09:19:19
+{"type":8192,"message":"Return type of Ai1wm_Recursive_Exclude_Filter::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\cashberti\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\filter\\class-ai1wm-recursive-exclude-filter.php","line":41}
+
+Oct 16 2023 09:19:20
+{"type":8192,"message":"Return type of Ai1wm_Recursive_Exclude_Filter::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\cashberti\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\filter\\class-ai1wm-recursive-exclude-filter.php","line":41}
+
+Oct 16 2023 09:19:22
+{"type":8192,"message":"Return type of Ai1wm_Recursive_Exclude_Filter::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\cashberti\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\filter\\class-ai1wm-recursive-exclude-filter.php","line":41}
+
+Oct 16 2023 09:19:23
+{"type":8192,"message":"Return type of Ai1wm_Recursive_Exclude_Filter::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\cashberti\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\filter\\class-ai1wm-recursive-exclude-filter.php","line":41}
+
+Oct 16 2023 09:19:27
+{"type":8192,"message":"Return type of Ai1wm_Recursive_Exclude_Filter::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\cashberti\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\filter\\class-ai1wm-recursive-exclude-filter.php","line":41}
+
+Oct 16 2023 09:19:27
+{"type":8192,"message":"Return type of Ai1wm_Recursive_Exclude_Filter::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\cashberti\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\filter\\class-ai1wm-recursive-exclude-filter.php","line":41}
+
+Oct 16 2023 09:19:29
+{"type":8192,"message":"Return type of Ai1wm_Recursive_Exclude_Filter::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\cashberti\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\filter\\class-ai1wm-recursive-exclude-filter.php","line":41}
+
+Oct 16 2023 09:19:30
+{"type":8192,"message":"Return type of Ai1wm_Recursive_Exclude_Filter::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\cashberti\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\filter\\class-ai1wm-recursive-exclude-filter.php","line":41}
+
+Oct 16 2023 09:19:31
+{"Number":2,"Message":"rename(C:\\xampp\\htdocs\\cashberti\\wp-content\\plugins\\all-in-one-wp-migration\\storage\\z8my0r6jkwoh\\cashberti.local.site-20231016-091917-5bizgb.wpress,C:\\xampp\\htdocs\\cashberti\/wp-content\\ai1wm-backups\\cashberti.local.site-20231016-091917-5bizgb.wpress): The process cannot access the file because it is being used by another process (code: 32)","File":"C:\\xampp\\htdocs\\cashberti\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\model\\export\\class-ai1wm-export-download.php","Line":44}
+
+Oct 16 2023 09:19:31
+{"type":8192,"message":"Return type of Ai1wm_Recursive_Exclude_Filter::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\cashberti\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\filter\\class-ai1wm-recursive-exclude-filter.php","line":41}
+
+Oct 16 2023 09:19:32
+{"type":8192,"message":"Return type of Ai1wm_Recursive_Exclude_Filter::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\cashberti\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\filter\\class-ai1wm-recursive-exclude-filter.php","line":41}
+
+Oct 16 2023 09:19:33
+{"type":8192,"message":"Return type of Ai1wm_Recursive_Exclude_Filter::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\cashberti\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\filter\\class-ai1wm-recursive-exclude-filter.php","line":41}
+
+Oct 16 2023 09:19:34
+{"Number":2,"Message":"unlink(C:\\xampp\\htdocs\\cashberti\\wp-content\\plugins\\all-in-one-wp-migration\\storage\\z8my0r6jkwoh\\cashberti.local.site-20231016-091917-5bizgb.wpress): Resource temporarily unavailable","File":"C:\\xampp\\htdocs\\cashberti\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\filesystem\\class-ai1wm-directory.php","Line":66}
+
+Oct 16 2023 09:19:34
+{"Number":2,"Message":"rmdir(C:\\xampp\\htdocs\\cashberti\\wp-content\\plugins\\all-in-one-wp-migration\\storage\\z8my0r6jkwoh): Directory not empty","File":"C:\\xampp\\htdocs\\cashberti\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\filesystem\\class-ai1wm-directory.php","Line":72}
+
+Oct 16 2023 09:19:34
+{"type":8192,"message":"Return type of Ai1wm_Recursive_Exclude_Filter::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\cashberti\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\filter\\class-ai1wm-recursive-exclude-filter.php","line":41}
+
+Oct 16 2023 09:19:37
+{"type":8192,"message":"Return type of Ai1wm_Recursive_Exclude_Filter::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\cashberti\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\filter\\class-ai1wm-recursive-exclude-filter.php","line":41}
+
+Oct 16 2023 09:19:42
+{"type":8192,"message":"Return type of Ai1wm_Recursive_Exclude_Filter::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\cashberti\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\filter\\class-ai1wm-recursive-exclude-filter.php","line":41}
+
+Oct 16 2023 09:19:46
+{"type":8192,"message":"Return type of Ai1wm_Recursive_Exclude_Filter::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\cashberti\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\filter\\class-ai1wm-recursive-exclude-filter.php","line":41}
+
+Oct 16 2023 09:19:50
+{"type":8192,"message":"Return type of Ai1wm_Recursive_Exclude_Filter::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\cashberti\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\filter\\class-ai1wm-recursive-exclude-filter.php","line":41}
+
+Oct 16 2023 09:19:54
+{"type":8192,"message":"Return type of Ai1wm_Recursive_Exclude_Filter::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\cashberti\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\filter\\class-ai1wm-recursive-exclude-filter.php","line":41}
+
+Oct 16 2023 09:19:58
+{"type":8192,"message":"Return type of Ai1wm_Recursive_Exclude_Filter::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\cashberti\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\filter\\class-ai1wm-recursive-exclude-filter.php","line":41}
+
+Oct 16 2023 09:20:03
+{"type":8192,"message":"Return type of Ai1wm_Recursive_Exclude_Filter::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\cashberti\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\filter\\class-ai1wm-recursive-exclude-filter.php","line":41}
+
+Oct 16 2023 09:20:08
+{"type":8192,"message":"Return type of Ai1wm_Recursive_Exclude_Filter::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\cashberti\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\filter\\class-ai1wm-recursive-exclude-filter.php","line":41}
+
+Oct 16 2023 09:20:12
+{"type":8192,"message":"Return type of Ai1wm_Recursive_Exclude_Filter::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\cashberti\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\filter\\class-ai1wm-recursive-exclude-filter.php","line":41}
+
+Oct 16 2023 09:20:16
+{"type":8192,"message":"Return type of Ai1wm_Recursive_Exclude_Filter::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\cashberti\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\filter\\class-ai1wm-recursive-exclude-filter.php","line":41}
+
+Oct 16 2023 09:20:20
+{"type":8192,"message":"Return type of Ai1wm_Recursive_Exclude_Filter::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\cashberti\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\filter\\class-ai1wm-recursive-exclude-filter.php","line":41}
+
+Oct 16 2023 09:20:24
+{"type":8192,"message":"Return type of Ai1wm_Recursive_Exclude_Filter::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\cashberti\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\filter\\class-ai1wm-recursive-exclude-filter.php","line":41}
+
+Oct 16 2023 09:20:28
+{"type":8192,"message":"Return type of Ai1wm_Recursive_Exclude_Filter::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\cashberti\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\filter\\class-ai1wm-recursive-exclude-filter.php","line":41}
+
+Oct 16 2023 09:20:32
+{"type":8192,"message":"Return type of Ai1wm_Recursive_Exclude_Filter::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\cashberti\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\filter\\class-ai1wm-recursive-exclude-filter.php","line":41}
+
+Oct 16 2023 09:20:36
+{"type":8192,"message":"Return type of Ai1wm_Recursive_Exclude_Filter::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\cashberti\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\filter\\class-ai1wm-recursive-exclude-filter.php","line":41}
+
+Oct 16 2023 09:20:40
+{"type":8192,"message":"Return type of Ai1wm_Recursive_Exclude_Filter::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\cashberti\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\filter\\class-ai1wm-recursive-exclude-filter.php","line":41}
+
+Oct 16 2023 09:20:41
+{"type":8192,"message":"Return type of Ai1wm_Recursive_Exclude_Filter::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\cashberti\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\filter\\class-ai1wm-recursive-exclude-filter.php","line":41}
+
+Oct 16 2023 09:20:42
+{"type":8192,"message":"Return type of Ai1wm_Recursive_Exclude_Filter::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\cashberti\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\filter\\class-ai1wm-recursive-exclude-filter.php","line":41}
+
+Oct 16 2023 09:20:46
+{"Number":8192,"Message":"explode(): Passing null to parameter #2 ($string) of type string is deprecated","File":"C:\\xampp\\htdocs\\cashberti\\wp-content\\plugins\\all-in-one-wp-migration\\functions.php","Line":359}
+
+Oct 16 2023 09:20:46
+{"type":8192,"message":"Return type of Ai1wm_Recursive_Exclude_Filter::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\cashberti\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\filter\\class-ai1wm-recursive-exclude-filter.php","line":41}
+
+Oct 16 2023 09:20:47
+{"type":8192,"message":"Return type of Ai1wm_Recursive_Exclude_Filter::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\cashberti\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\filter\\class-ai1wm-recursive-exclude-filter.php","line":41}
+
+Oct 16 2023 09:20:47
+{"type":8192,"message":"Return type of Ai1wm_Recursive_Exclude_Filter::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\cashberti\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\filter\\class-ai1wm-recursive-exclude-filter.php","line":41}
+
+Oct 16 2023 09:20:48
+{"type":8192,"message":"Return type of Ai1wm_Recursive_Exclude_Filter::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\cashberti\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\filter\\class-ai1wm-recursive-exclude-filter.php","line":41}
+
+Oct 16 2023 09:20:49
+{"type":8192,"message":"Return type of Ai1wm_Recursive_Exclude_Filter::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\cashberti\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\filter\\class-ai1wm-recursive-exclude-filter.php","line":41}
+
+Oct 16 2023 09:20:51
+{"type":8192,"message":"Return type of Ai1wm_Recursive_Exclude_Filter::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\cashberti\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\filter\\class-ai1wm-recursive-exclude-filter.php","line":41}
+
+Oct 16 2023 09:20:51
+{"type":8192,"message":"Return type of Ai1wm_Recursive_Exclude_Filter::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\cashberti\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\filter\\class-ai1wm-recursive-exclude-filter.php","line":41}
+
+Oct 16 2023 09:20:54
+{"type":8192,"message":"Return type of Ai1wm_Recursive_Exclude_Filter::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\cashberti\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\filter\\class-ai1wm-recursive-exclude-filter.php","line":41}
+
+Oct 16 2023 09:20:55
+{"type":8192,"message":"Return type of Ai1wm_Recursive_Exclude_Filter::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\cashberti\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\filter\\class-ai1wm-recursive-exclude-filter.php","line":41}
+
+Oct 16 2023 09:20:56
+{"type":8192,"message":"Return type of Ai1wm_Recursive_Exclude_Filter::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\cashberti\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\filter\\class-ai1wm-recursive-exclude-filter.php","line":41}
+
+Oct 16 2023 09:20:57
+{"type":8192,"message":"Return type of Ai1wm_Recursive_Exclude_Filter::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\cashberti\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\filter\\class-ai1wm-recursive-exclude-filter.php","line":41}
+
+Oct 16 2023 09:20:58
+{"type":8192,"message":"Return type of Ai1wm_Recursive_Exclude_Filter::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\cashberti\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\filter\\class-ai1wm-recursive-exclude-filter.php","line":41}
+
+Oct 16 2023 09:20:59
+{"type":8192,"message":"Return type of Ai1wm_Recursive_Exclude_Filter::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\cashberti\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\filter\\class-ai1wm-recursive-exclude-filter.php","line":41}
+
+Oct 16 2023 09:20:59
+{"type":8192,"message":"Return type of Ai1wm_Recursive_Exclude_Filter::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\cashberti\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\filter\\class-ai1wm-recursive-exclude-filter.php","line":41}
+
+Oct 16 2023 09:21:00
+{"type":8192,"message":"Return type of Ai1wm_Recursive_Exclude_Filter::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\cashberti\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\filter\\class-ai1wm-recursive-exclude-filter.php","line":41}
+
+Oct 16 2023 09:21:00
+{"type":8192,"message":"Return type of Ai1wm_Recursive_Exclude_Filter::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\cashberti\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\filter\\class-ai1wm-recursive-exclude-filter.php","line":41}
+
