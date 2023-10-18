@@ -95,7 +95,10 @@
             color: color(secondary, base);
             a {
                 font-weight: bold;
-                color: inherit
+                color: inherit;
+                &:hover {
+                    color: white;
+                }
             }
         }
         .shortcuts {
@@ -103,7 +106,10 @@
             padding-bottom: 31px;
             margin-bottom: 31px;
             .contact-item {
-                color: color(primary, medium);
+                color: white;
+                a:hover {
+                    color: color(secondary, base);
+                }
                 &.address {
                     @media screen and (min-width: $screen-lg-min) {
                         max-width: 315px;
@@ -147,6 +153,15 @@
                     .nav-link {
                         &:hover {
                             color: color(secondary, base);
+                        }
+                    }                    
+                    &[class*="object-page"] {
+                        font-weight: bold;
+                        color: color(secondary, base);
+                        .nav-link {
+                            &:hover {
+                                color: white;
+                            }
                         }
                     }
                 }
